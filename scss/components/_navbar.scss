@@ -1,0 +1,30 @@
+// navbar.scss
+
+.navbar {
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgba(255,255,255, 0.95);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: $space-xs;
+    padding-top: $space-xs;
+    border-bottom: $border;
+    
+    a {
+    float: left;
+    text-align: center;
+    padding: 0px 4px;
+    }
+    
+    a:last-child {
+    float: right;
+    text-decoration: none;
+    }
+}
+
+.inner_nav {
+    max-width: $max_width;
+    margin: auto;
+    padding: 4px $space-m;
+}
