@@ -3,7 +3,7 @@
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
 
 
-$h1-font-size:                $font-size-base * 2.5;
+$h1-font-size:                $font-size-base * 3;
 $h2-font-size:                $font-size-base * 2;
 $h3-font-size:                $font-size-base * 1.5;
 $h4-font-size:                $font-size-base * 0.875;
@@ -11,11 +11,12 @@ $h5-font-size:                $font-size-base * .75;
 $h6-font-size:                $font-size-base !default; 
 
 
-$headings-font-weight: 300;
+$headings-font-weight: 100;
 
 .type--bold {
-    font-weight: 700;
+    font-weight: 900;
 }
 
-$headings-color: #424242;
+$headings-color: $black;
 
+$headings-font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
