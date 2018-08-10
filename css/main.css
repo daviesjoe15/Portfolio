@@ -4695,7 +4695,8 @@ a.text-dark:hover, a.text-dark:focus {
   border-top-right-radius: 0; }
 
 .homepage .project h5 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #B7B7B7; }
 
 .homepage .project img {
   object-fit: none; }
