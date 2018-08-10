@@ -1,0 +1,16 @@
+// homepage
+
+.homepage {
+    
+    .project {
+             //background-color: red;
+        
+        h5 {
+            text-transform: uppercase;
+            color: $gray-200;
+        }
+        img{
+          object-fit: none;
+        }
+    }
+}
