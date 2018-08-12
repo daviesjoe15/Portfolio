@@ -1,18 +1,14 @@
- //Links
+//border-radius
 
-$link-color: $black;
-$link-hover-color: $primary;
-$font-weight-normal: none;
-
-
-.btn-link {
-    cursor: pointer;
-    text-decoration: underline;
+.borderRadius {
+    border-radius: 16px;
 }
 
-.container a:hover {
-    text-decoration: none;
-}
+
+//shadow
+
+$box-shadow-lg: 0 0 3rem rgba($black, 0.2);
+
 
 
 //Spacing
@@ -34,6 +30,22 @@ $spacers: map-merge(
   ),
   $spacers
 );
+
+
+
+
+ //Links
+
+$link-color: $black;
+$link-hover-color: $primary;
+$font-weight-normal: none;
+
+
+.btn-link {
+    cursor: pointer;
+}
+
+$link-hover-decoration: none;
 
 
 
@@ -65,4 +77,4 @@ li {
     display: block;
     padding-right: ($spacer * 2);
 }
- 
+

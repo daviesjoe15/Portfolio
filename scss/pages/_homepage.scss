@@ -2,15 +2,33 @@
 
 .homepage {
     
-    .project {
-             //background-color: red;
+    .intro {
         
-        h5 {
-            text-transform: uppercase;
+        h1, p {
             color: $gray-200;
         }
-        img{
-          object-fit: none;
+        
+        @include media-breakpoint-down(sm){
+            
+            h3{ font-size: 1.3rem;}
+            p{font-size: .8rem;}
         }
     }
+    
+    
+    .project {
+        
+            h5 {
+                text-transform: uppercase;
+                color: $gray-200;
+            }
+        
+        img {
+            object-fit: cover;
+            min-height: 360px;
+        }
+    }
+    
+    
+   
 }

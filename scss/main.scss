@@ -1,18 +1,11 @@
-
-// Modules and variables
-
 @import 'modules/colours';
-@import 'modules/variables';
 @import 'modules/typography';
+@import 'modules/variables';
 
+// Bootstrap 
 
-
-// Bootstrap
-
-@import 'vendor/bootstrap'; 
-
-
-
+@import 'vendor/bootstrap';
+ 
 // Pages
 
 @import 'pages/homepage';
