@@ -15,20 +15,22 @@
         }
     }
     
-    
+     
     .project {
         
-            h5 {
-                text-transform: uppercase;
-                color: $gray-200;
+        
+        h5 {
+            text-transform: uppercase;
+            color: $gray-200;
             }
         
         img {
             object-fit: cover;
             min-height: 360px;
         }
+        
+        @include media-breakpoint-up(sm){
+            h2{font-size: 5vw;}
+        }
     }
-    
-    
-   
 }
