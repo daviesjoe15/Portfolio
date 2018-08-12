@@ -1,5 +1,6 @@
 p {
-  font-weight: 100; }
+  font-weight: 100;
+  color: #595959; }
 
 .type-bold {
   font-weight: 900; }
@@ -4867,7 +4868,15 @@ a.text-dark:hover, a.text-dark:focus {
   .homepage .project h2 {
     font-size: 5vw; } }
 
-.article h1 {
-  font-size: 6vw; }
+.article .paragraph {
+  margin-bottom: 6rem; }
+
+.article img {
+  padding-bottom: 8rem; }
+
+@media (min-width: 576px) {
+  .article h1 {
+    font-weight: 900;
+    font-size: 5vw; } }
 
 /*# sourceMappingURL=main.css.map */

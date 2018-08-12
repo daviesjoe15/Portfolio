@@ -3,7 +3,20 @@
 
 .article {
     
-    h1{
-        font-size: 6vw;
+    
+    
+    .paragraph {
+        margin-bottom: $spacer * 6;
     }
+    
+    img {
+        padding-bottom: $spacer * 8;
+    }
+    
+    @include media-breakpoint-up(sm){
+            h1{
+                font-weight: 900;
+                font-size: 5vw;}
+        
+        }
 }
