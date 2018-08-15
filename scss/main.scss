@@ -1,12 +1,17 @@
 @import 'modules/colours';
 @import 'modules/typography';
 @import 'modules/variables';
-@import 'components/navbar';
 
 // Bootstrap 
 
 @import 'vendor/bootstrap';
+
+
+// Components
+
+@import 'components/navbar';
  
+
 // Pages
 
 @import 'pages/homepage';

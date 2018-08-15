@@ -13,6 +13,10 @@ p {
 .btn-link {
   cursor: pointer; }
 
+.arrowLeft {
+  fill: #B7B7B7;
+  cursor: pointer; }
+
 ul {
   list-style-type: none;
   padding: 0px;
@@ -22,17 +26,6 @@ li {
   float: left;
   display: block;
   padding-right: 2rem; }
-
-.navbar {
-  height: 64px;
-  width: 100%;
-  background-color: white;
-  opacity: 0.97;
-  backdrop-filter: blur(4px); }
-  .navbar .title {
-    text-align: center;
-    margin: auto;
-    display: none; }
 
 :root {
   --blue: #007bff;
@@ -4859,6 +4852,23 @@ a.text-dark:hover, a.text-dark:focus {
 .accordion .card:last-of-type {
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
+
+.navbar {
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.97;
+  backdrop-filter: blur(4px); }
+  .navbar .title {
+    text-align: center;
+    margin: auto;
+    display: none; }
+  .navbar .arrowLeft:hover {
+    fill: #35C4E3; }
+
+.homepage .iconFill {
+  height: 40px;
+  fill: red; }
 
 .homepage .intro h1, .homepage .intro p {
   color: #B7B7B7; }
