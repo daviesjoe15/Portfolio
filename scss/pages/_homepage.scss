@@ -33,6 +33,11 @@
         img {
             object-fit: cover;
             min-height: 360px;
+            transition: 0.2s;
+        }
+        
+        img:hover {
+            transform: scale(0.99);
         }
         
         @include media-breakpoint-up(sm){
