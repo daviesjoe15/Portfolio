@@ -2,22 +2,21 @@
 
 .homepage {
     
-    .iconFill {
-            height: 40px;
-            fill: red;
-        }
     
     
     .intro {
         
-        h1, p {
+        h1 {
+            color: $gray-100;
+        }
+        
+        h5 {
             color: $gray-200;
         }
         
         @include media-breakpoint-down(sm){
             
-            h3{ font-size: 1.3rem;}
-            p{font-size: .8rem;}
+            h4{ font-size: 1.3rem;}
         }
     }
     
@@ -25,7 +24,7 @@
     .project {
         
         
-        h5 {
+        h6 {
             text-transform: uppercase;
             color: $gray-200;
             }
@@ -36,12 +35,15 @@
             transition: 0.2s;
         }
         
-        img:hover {
+        img:hover { 
             transform: scale(0.99);
         }
         
-        @include media-breakpoint-up(sm){
-            h2{font-size: 5vw;}
+        @include media-breakpoint-down(sm){
+            
+            h2 {
+                font-size: 2rem;
+            }
         }
     }
 }

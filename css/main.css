@@ -1,11 +1,11 @@
 p {
   font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: lighter;
   font-size: 1.1rem;
+  font-weight: 400;
   color: #595959; }
 
 .type-bold {
-  font-weight: 900; }
+  font-weight: 700; }
 
 .borderRadius {
   border-radius: 16px; }
@@ -54,7 +54,7 @@ li {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -78,7 +78,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: none;
   line-height: 1.5;
@@ -324,27 +324,27 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.2;
   color: #595959; }
 
 h1, .h1 {
-  font-size: 3rem; }
+  font-size: 4rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 h3, .h3 {
-  font-size: 1.5rem; }
+  font-size: 2rem; }
 
 h4, .h4 {
-  font-size: 0.875rem; }
+  font-size: 1.5rem; }
 
 h5, .h5 {
-  font-size: 0.75rem; }
+  font-size: 1rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.75rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -4861,7 +4861,8 @@ a.text-dark:hover, a.text-dark:focus {
   backdrop-filter: blur(4px); }
   .navbar .nav-title {
     width: 100%;
-    left: 0; }
+    left: 0;
+    z-index: 0; }
   .navbar .scroll-fade {
     text-align: center;
     margin: auto;
@@ -4873,20 +4874,17 @@ a.text-dark:hover, a.text-dark:focus {
     transform: scale(1.05);
     fill: #35C4E3; }
 
-.homepage .iconFill {
-  height: 40px;
-  fill: red; }
+.homepage .intro h1 {
+  color: #E0E0E0; }
 
-.homepage .intro h1, .homepage .intro p {
+.homepage .intro h5 {
   color: #B7B7B7; }
 
 @media (max-width: 767.98px) {
-  .homepage .intro h3 {
-    font-size: 1.3rem; }
-  .homepage .intro p {
-    font-size: .8rem; } }
+  .homepage .intro h4 {
+    font-size: 1.3rem; } }
 
-.homepage .project h5 {
+.homepage .project h6 {
   text-transform: uppercase;
   color: #B7B7B7; }
 
@@ -4898,9 +4896,9 @@ a.text-dark:hover, a.text-dark:focus {
 .homepage .project img:hover {
   transform: scale(0.99); }
 
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
   .homepage .project h2 {
-    font-size: 5vw; } }
+    font-size: 2rem; } }
 
 .article {
   /* @include media-breakpoint-up(sm){
@@ -4916,7 +4914,7 @@ a.text-dark:hover, a.text-dark:focus {
     margin: auto;
     max-width: 550px; }
     .article .paragraph h3 {
-      font-weight: 900; }
+      padding-bottom: 24px; }
   .article img {
     padding-bottom: 100px; }
   .article .nextProject {
@@ -4934,6 +4932,6 @@ a.text-dark:hover, a.text-dark:focus {
     left: 50px; }
   @media (max-width: 767.98px) {
     .article .paragraph {
-      width: 400px; } }
+      max-width: 400px; } }
 
 /*# sourceMappingURL=main.css.map */
