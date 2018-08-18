@@ -3,7 +3,7 @@
 $(window).scroll(function() {
 // 100 = The point you would like to fade the nav in.
   
-	if ($(window).scrollTop() > 100 ){
+	if ($(window).scrollTop() > 140 ){
     
  		$('.scroll-fade').addClass('show');
     

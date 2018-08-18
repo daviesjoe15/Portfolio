@@ -34,4 +34,10 @@
         transform: scale(1.05);
         fill: $primary;
     }
+    
+    @include media-breakpoint-down(sm){
+        .arrowLeft {
+            margin-left: -24px;
+        }
+    }
 }  

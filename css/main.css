@@ -5027,6 +5027,9 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar .arrowLeft:hover {
     transform: scale(1.05);
     fill: #35C4E3; }
+  @media (max-width: 767.98px) {
+    .navbar .arrowLeft {
+      margin-left: -24px; } }
 
 .homepage .intro h1 {
   color: #E0E0E0;
@@ -5041,7 +5044,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .homepage .project h6 {
   text-transform: uppercase;
-  color: #B7B7B7; }
+  color: #B7B7B7;
+  padding-left: 4px; }
 
 .homepage .project img {
   object-fit: cover;
@@ -5055,37 +5059,38 @@ a.text-dark:hover, a.text-dark:focus {
   .homepage .project h2 {
     font-size: 2rem; } }
 
-.article {
-  /* @include media-breakpoint-up(sm){
-        
-            h1{
-                font-size: 3vw;}
-        }
-    */ }
+.article .paragraph {
+  padding-bottom: 128px;
+  margin: auto;
+  max-width: 550px; }
+  .article .paragraph h3 {
+    padding-bottom: 24px;
+    font-weight: 700; }
+
+.article img {
+  padding-bottom: 128px; }
+
+.article .nextProject {
+  position: relative;
+  transition: 0.2s; }
+
+.article .nextProject:hover {
+  transform: scale(0.99); }
+
+.article .nextProject img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover; }
+
+.article .nextProjectText {
+  position: absolute;
+  top: 8px;
+  left: 50px; }
+
+@media (max-width: 767.98px) {
   .article .paragraph {
-    padding-bottom: 128px;
-    margin: auto;
-    max-width: 550px; }
-    .article .paragraph h3 {
-      padding-bottom: 24px;
-      font-weight: 700; }
-  .article img {
-    padding-bottom: 128px; }
-  .article .nextProject {
-    position: relative;
-    transition: 0.2s; }
-  .article .nextProject:hover {
-    transform: scale(0.99); }
-  .article .nextProject img {
-    height: 50vh;
-    width: 100%;
-    object-fit: cover; }
-  .article .nextProjectText {
-    position: absolute;
-    top: 8px;
-    left: 50px; }
-  @media (max-width: 767.98px) {
-    .article .paragraph {
-      max-width: 400px; } }
+    max-width: 400px; }
+  .article .title {
+    font-size: 3rem; } }
 
 /*# sourceMappingURL=main.css.map */
