@@ -15,19 +15,18 @@ $box-shadow-lg: 0 0 3rem rgba($black, 0.2);
 
 $spacer: 1rem;
 $spacers: ();
-// stylelint-disable-next-line scss/dollar-variable-default
-$spacers: map-merge(
-  (
-    0: 0,
-    1: ($spacer * .25),
-    2: ($spacer * .5),
+$spacers: map-merge((
+    0: 0px,
+    1: 4px,
+    2: 8px,
     3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3),
-    6: ($spacer * 4),
-    7: ($spacer * 8),
-    8: ($spacer * 12),
-    9: ($spacer * 16)
+    4: 24px,
+    5: 32px,
+    6: 40px,
+    7: 56px,
+    8: 96px,
+    9: 128px,
+   10: 256px
   ),
   $spacers
 );
