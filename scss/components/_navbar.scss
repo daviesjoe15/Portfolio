@@ -11,6 +11,8 @@
         width: 100%;
         left: 0;
         z-index: 0;
+        font-weight: 600;
+        color: $gray-300;
     }
     
     .scroll-fade {
@@ -24,8 +26,10 @@
         opacity: 1; 
     }
     
-    
-    
+    .arrowLeft {
+        fill: $gray-100;
+    }
+     
       .arrowLeft:hover {
         transform: scale(1.05);
         fill: $primary;
