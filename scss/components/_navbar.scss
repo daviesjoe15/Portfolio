@@ -1,20 +1,32 @@
 // navbar.scss
 
 .navbar {
-    height: 64px;
+    height: 48px;
     width: 100%;
     background-color: white;
-    opacity: 0.97;
+    opacity: 0.99;
     backdrop-filter: blur(4px);
     
-    .title {
+    .nav-title {
+        width: 100%;
+        left: 0;
+    }
+    
+    .scroll-fade {
         text-align: center;
         margin: auto;
-        display: none;
+        opacity: 0;
+        transition: 0.3s;
     }
+    
+    .show {
+        opacity: 1; 
+    }
+    
+    
     
       .arrowLeft:hover {
         transform: scale(1.05);
         fill: $primary;
     }
-}
+}  

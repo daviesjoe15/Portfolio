@@ -3,6 +3,23 @@
 
 .article {
     
+     
+    .articleTitle {
+        width: 100%; 
+    }
+    
+    .paragraph {
+        padding-bottom: 100px;
+        margin: auto;
+        max-width: 550px;
+        
+        h3 {font-weight: 900;}
+    }
+    
+    img {
+        padding-bottom: 100px;
+    }
+     
     .nextProject {
         position: relative;
         transition: 0.2s;
@@ -24,10 +41,16 @@
         left: 50px;
         }
     
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-down(sm){
+        .paragraph {
+            width: 400px;
+        }
+    }
+    
+    /* @include media-breakpoint-up(sm){
         
             h1{
-                font-size: 5vw;}
+                font-size: 3vw;}
         }
-    
+    */
 }
