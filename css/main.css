@@ -2891,7 +2891,7 @@ button.bg-dark:focus {
   box-shadow: 0 0.5rem 1rem rgba(66, 66, 66, 0.15) !important; }
 
 .shadow-lg {
-  box-shadow: 0 0 3rem rgba(66, 66, 66, 0.2) !important; }
+  box-shadow: 1px 1px 16px #B7B7B7 !important; }
 
 .shadow-none {
   box-shadow: none !important; }
@@ -5014,7 +5014,7 @@ a.text-dark:hover, a.text-dark:focus {
     left: 0;
     z-index: 0;
     font-weight: 600;
-    color: #595959; }
+    color: #B7B7B7; }
   .navbar .scroll-fade {
     text-align: center;
     margin: auto;
@@ -5068,7 +5068,11 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: 700; }
 
 .article img {
-  padding-bottom: 128px; }
+  padding-bottom: 128px;
+  width: 100%; }
+
+.article .embed-responsive {
+  margin-bottom: 128px; }
 
 .article .nextProject {
   position: relative;
@@ -5089,7 +5093,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (max-width: 767.98px) {
   .article .paragraph {
+    padding-bottom: 64px;
     max-width: 400px; }
+  .article img {
+    padding-bottom: 64px; }
   .article .title {
     font-size: 3rem; } }
 

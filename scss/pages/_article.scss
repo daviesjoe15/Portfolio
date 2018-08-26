@@ -4,37 +4,42 @@
 .article {
     
     .paragraph {
+        
         padding-bottom: 128px;
         margin: auto;
         max-width: 550px;
         
-        h3 {
-            padding-bottom: 24px;
-            font-weight: 700;
+            h3 {
+                padding-bottom: 24px;
+                font-weight: 700;
+                }
         }
-    }
     
     img {
         padding-bottom: 128px;
         width: 100%;
+        }
+    
+    .embed-responsive {
+        margin-bottom: 128px;
     }
      
     .nextProject {
         position: relative;
         transition: 0.2s;
-    }
+        }
     
     .nextProject:hover {
         transform: scale(0.99);
-    }
+        }
     
     .nextProject img {
         height: 50vh;
         width: 100%;
         object-fit: cover;
-    }
+        }
     
-  .nextProjectText {
+      .nextProjectText {
         position: absolute;
         top: 8px;
         left: 50px;
@@ -43,7 +48,12 @@
     @include media-breakpoint-down(sm){
         
         .paragraph {
+            padding-bottom: 64px;
             max-width: 400px;
+        }
+        
+        img {
+            padding-bottom: 64px;
         }
         
         .title {
