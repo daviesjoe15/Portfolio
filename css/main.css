@@ -5129,4 +5129,12 @@ a.text-dark:hover, a.text-dark:focus {
   .resume .skills p {
     margin-bottom: 0px; }
 
+.about p {
+  max-width: 550px; }
+
+.about img {
+  object-fit: cover;
+  margin-bottom: 32px;
+  max-height: 512px; }
+
 /*# sourceMappingURL=main.css.map */
