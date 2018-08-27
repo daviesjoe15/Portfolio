@@ -1,0 +1,36 @@
+// Resume
+
+.resume {
+    
+    h3, h5 {
+        color: $gray-200;
+    }
+    
+    .experience {
+        
+        h5{
+            margin-bottom: $spacer * 0.5;
+        }
+        
+        p{
+            max-width: 550px;
+            margin-top: $spacer;
+            margin-bottom: $spacer * 4;
+        }
+        
+        
+    }
+     
+    .skills{
+        
+        padding-bottom: $spacer * 5;
+        
+        li{
+            width: 100%;
+        }
+        
+        p{
+            margin-bottom: 0px;
+        }
+    }
+}
