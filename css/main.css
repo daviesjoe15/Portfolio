@@ -1,11 +1,21 @@
 p {
   font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 300;
   color: #595959; }
 
 .type-bold {
-  font-weight: 700; }
+  font-weight: 600; }
+
+.title {
+  margin-top: 96px;
+  margin-bottom: 40px;
+  font-weight: bold; }
+
+ul, ol {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; }
 
 .borderRadius {
   border-radius: 16px; }
@@ -16,16 +26,6 @@ p {
 .arrowLeft {
   fill: #B7B7B7;
   cursor: pointer; }
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px; }
-
-li {
-  float: left;
-  display: block;
-  padding-right: 2rem; }
 
 :root {
   --blue: #007bff;
@@ -5031,6 +5031,14 @@ a.text-dark:hover, a.text-dark:focus {
     .navbar .nav-title {
       padding-right: 0px; } }
 
+.homepage ul {
+  list-style-type: none; }
+
+.homepage li {
+  float: left;
+  display: block;
+  padding-right: 2rem; }
+
 .homepage .intro h1 {
   color: #E0E0E0;
   font-weight: 600; }
@@ -5102,5 +5110,23 @@ a.text-dark:hover, a.text-dark:focus {
     padding-bottom: 64px; }
   .article .title {
     font-size: 3rem; } }
+
+.resume h3, .resume h5 {
+  color: #B7B7B7; }
+
+.resume .experience h5 {
+  margin-bottom: 0.5rem; }
+
+.resume .experience p {
+  max-width: 550px;
+  margin-top: 1rem;
+  margin-bottom: 4rem; }
+
+.resume .skills {
+  padding-bottom: 5rem; }
+  .resume .skills li {
+    width: 100%; }
+  .resume .skills p {
+    margin-bottom: 0px; }
 
 /*# sourceMappingURL=main.css.map */

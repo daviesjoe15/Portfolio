@@ -70,19 +70,4 @@ $container-max-widths: (
 }
 
 
-// Lists
-
-ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-  }
-
-
-li {
-    float: left;
-    display: block;
-    padding-right: ($spacer * 2);
-}
-
 

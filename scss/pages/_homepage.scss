@@ -2,7 +2,18 @@
 
 .homepage {
     
-    
+
+    ul {
+        list-style-type: none;
+      }
+
+
+    li {
+        float: left;
+        display: block;
+        padding-right: ($spacer * 2);
+        }
+
     
     .intro {
         
