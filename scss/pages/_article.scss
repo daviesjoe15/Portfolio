@@ -3,10 +3,9 @@
 
 .article {
     
-    .paragraph {
-        
-        padding-bottom: 128px;
+    .paragraph {    
         margin: auto;
+        margin-bottom: 128px;
         max-width: 550px;
         
             h3 {
@@ -15,10 +14,14 @@
                 }
         }
     
-    img {
-        padding-bottom: 128px;
-        width: 100%;
+    .image {
+        margin-bottom: 128px;
         }
+    
+    figcaption {
+        text-align: center;
+        color: $gray-200;
+    }
     
     .embed-responsive {
         margin-bottom: 128px;
