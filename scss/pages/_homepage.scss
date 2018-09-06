@@ -49,13 +49,18 @@
         }
         
         img:hover { 
-            transform: scale(0.99);
+            transform: scale(1.02);
         }
         
-        @include media-breakpoint-down(sm){
+        @include media-breakpoint-down(md){
             
             h2 {
                 font-size: 2rem;
+                
+            }
+            
+            p {
+                display: none;
             }
         }
     }
