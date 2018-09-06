@@ -14,7 +14,7 @@ $h5-font-size:                $font-size-base !default;
 $h6-font-size:                $font-size-base * 0.75; 
 
 $headings-color: $gray-300;
-$headings-font-weight: 300;
+$headings-font-weight: 600;
 
 
 p {
@@ -26,14 +26,13 @@ p {
 }
 
 
-.type-bold { 
-    font-weight: 600;
+.type-light {
+    font-weight: 300;
 }
 
 .title {
-    margin-top: 96px;
-    margin-bottom: 40px;
-    font-weight: bold;
+    margin-top: 128px;
+    margin-bottom: 128px;
 }
 
 ul, ol{

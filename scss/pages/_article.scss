@@ -26,41 +26,32 @@
     .embed-responsive {
         margin-bottom: 128px;
     }
-     
-    .nextProject {
-        position: relative;
-        transition: 0.2s;
-        }
     
-    .nextProject:hover {
-        transform: scale(0.99);
-        }
+    .carousel-indicators li {
+        bottom: -40px;
+    }
     
-    .nextProject img {
-        height: 50vh;
-        width: 100%;
-        object-fit: cover;
-        }
-    
-      .nextProjectText {
-        position: absolute;
-        top: 8px;
-        left: 50px;
-        }
+    .nextProject img{
+        border-radius: $borderRadius;
+    }
     
     @include media-breakpoint-down(sm){
         
         .paragraph {
-            padding-bottom: 64px;
+            margin-bottom: 64px;
             max-width: 400px;
         }
         
-        img {
-            padding-bottom: 64px;
+        .image {
+            margin-bottom: 64px;
         }
         
-        .title {
+        h1 {
             font-size: 3rem;
+        }
+        
+        .nextProject:last-child{
+            display: none;
         }
     }
 }

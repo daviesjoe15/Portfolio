@@ -4,6 +4,8 @@
     border-radius: 16px;
 }
 
+$borderRadius: 16px;
+
 
 //shadow
 
@@ -65,9 +67,10 @@ $container-max-widths: (
 // Icons
 
 .arrowLeft {
-    fill: $gray-200;
+    fill: $gray-100;
     cursor: pointer;
 }
 
 
-
+$carousel-control-color: $gray-200;
+$carousel-indicator-active-bg: $gray-200;

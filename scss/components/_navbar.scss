@@ -25,12 +25,13 @@
     }
     
     .arrowLeft {
-        fill: $gray-100;
+        transition: 0.2s;
     }
-     
+    
       .arrowLeft:hover {
-        transform: scale(1.05);
+        transform: translate(-2px);
         fill: $primary;
+          transition: 0.2s;
     }
     
     @include media-breakpoint-down(sm){

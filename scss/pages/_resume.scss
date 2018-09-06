@@ -6,13 +6,21 @@
         color: $gray-200;
     }
     
+    .btn-link {
+        color: $gray-300;
+    }
+    
+    a:hover {
+        color: $primary;
+    }
+    
     .experience {
         
-        h5{
+        h5 {
             margin-bottom: $spacer * 0.5;
         }
         
-        p{
+        p {
             max-width: 550px;
             margin-top: $spacer;
             margin-bottom: $spacer * 4;
@@ -21,15 +29,15 @@
         
     }
      
-    .skills{
+    .skills {
         
         padding-bottom: $spacer * 5;
         
-        li{
+        li {
             width: 100%;
         }
         
-        p{
+        p {
             margin-bottom: 0px;
         }
     }
