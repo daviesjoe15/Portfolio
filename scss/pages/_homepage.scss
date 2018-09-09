@@ -52,6 +52,7 @@
             transform: scale(1.02);
         }
         
+        
         @include media-breakpoint-down(md){
             
             h2 {
@@ -63,5 +64,6 @@
                 display: none;
             }
         }
+        
     }
 }

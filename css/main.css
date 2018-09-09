@@ -2890,7 +2890,7 @@ button.bg-dark:focus {
   box-shadow: 0 0.5rem 1rem rgba(66, 66, 66, 0.15) !important; }
 
 .shadow-lg {
-  box-shadow: 1px 1px 16px #B7B7B7 !important; }
+  box-shadow: 1px 1px 16px #E0E0E0 !important; }
 
 .shadow-none {
   box-shadow: none !important; }
@@ -5102,6 +5102,8 @@ a.text-dark:hover, a.text-dark:focus {
   .article h1 {
     font-size: 3rem; }
   .article .nextProject:last-child {
+    display: none; }
+  .article .lastLetter {
     display: none; } }
 
 .resume h3, .resume h5 {
