@@ -5039,16 +5039,19 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   padding-right: 2rem; }
 
-.homepage .intro h1 {
-  color: #E0E0E0;
-  font-weight: 600; }
+.homepage .intro {
+  margin-top: 256px; }
+  .homepage .intro h1 {
+    color: #E0E0E0;
+    font-weight: 600; }
+  @media (max-width: 767.98px) {
+    .homepage .intro {
+      margin-top: 128px; }
+      .homepage .intro h4 {
+        font-size: 1.3rem; } }
 
-.homepage .intro h5 {
-  color: #B7B7B7; }
-
-@media (max-width: 767.98px) {
-  .homepage .intro h4 {
-    font-size: 1.3rem; } }
+.homepage .intro a, .homepage li a {
+  font-weight: 400; }
 
 .homepage .project h6 {
   text-transform: uppercase;

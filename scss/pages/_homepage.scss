@@ -17,18 +17,24 @@
     
     .intro {
         
+        margin-top: 256px;
+        
         h1 {
             color: $gray-100;
             font-weight: 600;
         }
         
-        h5 {
-            color: $gray-200;
-        }
-        
         @include media-breakpoint-down(sm){
             
+            margin-top: 128px;
+            
             h4{ font-size: 1.3rem;}
+        }
+    }
+    
+    .intro, li {
+        a {
+            font-weight: 400;
         }
     }
     
