@@ -9,8 +9,10 @@
     
     .nav-title {
         padding-right: 32px;
-        font-weight: 600; 
-        color: $gray-200;
+        color: $gray-300;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-size: 11px;
     }
     
     .scroll-fade {
