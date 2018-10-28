@@ -7,8 +7,13 @@
     opacity: 0.98;
     backdrop-filter: blur(4px);
     
+    .nav-title-box {
+       width: 50%;
+        left: 25%;
+        right: 25%;
+    }
+    
     .nav-title {
-        padding-right: 32px;
         color: $gray-300;
         text-transform: uppercase;
         letter-spacing: .1em;
@@ -35,6 +40,7 @@
         fill: $primary;
         transition: 0.2s;
     }
+    
     
     @include media-breakpoint-down(sm){
         .arrowLeft {
