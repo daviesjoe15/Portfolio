@@ -5036,26 +5036,25 @@ a.text-dark:hover, a.text-dark:focus {
     .navbar .nav-title {
       padding-right: 0px; } }
 
-.tabbed-image .mySlides {
-  display: none;
-  transition: 5s; }
+.imageTab .mySlides {
+  display: none; }
 
-.tabbed-image .image-tab {
+.imageTab .image-tab {
   cursor: pointer;
   color: #B7B7B7; }
 
-.tabbed-image .active, .tabbed-image .image-tab:hover {
+.imageTab .active, .imageTab .image-tab:hover {
   color: #424242; }
 
-.tabbed-image .image-tab-scroll {
+.imageTab .image-tab-scroll {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch; }
-  .tabbed-image .image-tab-scroll::-webkit-scrollbar {
+  .imageTab .image-tab-scroll::-webkit-scrollbar {
     display: none; }
 
-.tabbed-image .fade {
+.imageTab .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1s;
   animation-name: fade;
