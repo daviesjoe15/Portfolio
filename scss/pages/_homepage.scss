@@ -40,6 +40,13 @@
     
     .project {
         
+        a:hover {
+            text-decoration: none;
+        }
+        
+        h2:hover {
+            color: $primary;
+        }
         
         h6 {
             text-transform: uppercase;

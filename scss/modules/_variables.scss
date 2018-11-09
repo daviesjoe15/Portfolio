@@ -38,18 +38,15 @@ $spacers: map-merge((
 
  //Links
 
-$link-color: $black;
-$link-hover-color: $primary;
+$link-color: $gray-300;
+$link-hover-color: $black;
 $font-weight-normal: none;
+$link-hover-decoration: underline;
 
 
 .btn-link {
     cursor: pointer;
 }
-
-$link-hover-decoration: none;
-
-
 
 
 
@@ -70,6 +67,14 @@ $container-max-widths: (
     fill: $gray-100;
     cursor: pointer;
 }
+
+$chevron-right: 
+    url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='16' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.37534 6.21911C9.8066 5.8741 10.4359 5.94402 10.7809 6.37528L14.7809 11.3753C15.0731 11.7405 15.0731 12.2595 14.7809 12.6247L10.7809 17.6247C10.4359 18.0559 9.8066 18.1259 9.37534 17.7808C8.94408 17.4358 8.87416 16.8065 9.21917 16.3753L12.7194 12L9.21917 7.62467C8.87416 7.19341 8.94408 6.56412 9.37534 6.21911Z' fill='#595959'/%3E%3C/svg%3E");
+
+$external-link: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='16' viewBox='0 -3 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.66671 3.99998C6.66671 3.63179 6.96518 3.33331 7.33337 3.33331H12C12.3682 3.33331 12.6667 3.63179 12.6667 3.99998V8.66665C12.6667 9.03484 12.3682 9.33331 12 9.33331C11.6319 9.33331 11.3334 9.03484 11.3334 8.66665V5.60946L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L10.3906 4.66665H7.33337C6.96518 4.66665 6.66671 4.36817 6.66671 3.99998Z' fill='#595959'/%3E%3C/svg%3E");
+
+$arrow-left: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='16' viewBox='0 -2 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711L5.41421 7H12C12.5523 7 13 7.44772 13 8C13 8.55228 12.5523 9 12 9H5.41421L7.70711 11.2929C8.09763 11.6834 8.09763 12.3166 7.70711 12.7071C7.31658 13.0976 6.68342 13.0976 6.29289 12.7071L2.29289 8.70711C1.90237 8.31658 1.90237 7.68342 2.29289 7.29289L6.29289 3.29289C6.68342 2.90237 7.31658 2.90237 7.70711 3.29289Z' fill='#595959'/%3E%3C/svg%3E");
+
 
 
 // Carousel

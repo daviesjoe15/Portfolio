@@ -1,0 +1,32 @@
+// icons.scss
+
+
+.link-more {
+        
+      &::after {
+        //display: inline-block;
+        content: $chevron-right;
+        }
+    }
+
+.arrow-left {
+        
+      &::before {
+        //display: inline-block;
+        content: $arrow-left;
+        }
+    }
+
+
+.link-external {
+        
+      &::after {
+        //display: inline-block;
+        content: $external-link;
+        }
+    }
+
+
+.link-more:hover, .link-external:hover {
+    color: $black;
+}
