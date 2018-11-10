@@ -27,13 +27,12 @@
         opacity: 1;
     }
     
-    .arrowLeft {
+    .arrow-left {
         transition: 0.2s;
     }
     
-      .arrowLeft:hover {
+      .arrow-left:hover {
         transform: translate(-2px);
-        fill: $primary;
         transition: 0.2s;
     }
     

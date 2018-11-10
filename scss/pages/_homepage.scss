@@ -10,7 +10,6 @@
 
     li {
         float: left;
-        display: block;
         padding-right: ($spacer * 2);
         }
 
@@ -21,7 +20,7 @@
         
         h1 {
             color: $gray-100;
-            font-weight: 600;
+            
         }
         
         @include media-breakpoint-down(sm){
@@ -49,7 +48,6 @@
         }
         
         h6 {
-            text-transform: uppercase;
             color: $gray-200;
             padding-left: 4px;
             }
