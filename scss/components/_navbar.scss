@@ -6,6 +6,7 @@
     background-color: white;
     opacity: 0.98;
     backdrop-filter: blur(4px);
+    padding: 0px;
     
     .nav-title {
         width: 100%;
@@ -27,25 +28,25 @@
         opacity: 1;
     }
     
-    .arrow-left {
+    .link-left, .link-right {
         transition: 0.2s;
     }
     
-      .arrow-left:hover {
+      .link-left:hover {
         transform: translate(-2px);
         transition: 0.2s;
     }
     
-    
+    .link-right:hover {
+        transform: translate(2px);
+        transition: 0.2s;
+    }
     
     .above-title {
         z-index: 10;
     }
     
     @include media-breakpoint-down(sm){
-        .arrowLeft {
-            margin-left: -24px;
-        }
         .nav-title {
             padding-right: 0px;
         }

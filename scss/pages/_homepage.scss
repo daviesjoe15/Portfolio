@@ -37,6 +37,11 @@
         }
     }
     
+    ul li:hover {
+        transform: translate(2px);
+        transition: 0.2s;
+    }
+    
     .project {
         
         a:hover {
