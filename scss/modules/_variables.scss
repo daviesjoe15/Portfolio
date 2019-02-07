@@ -1,16 +1,12 @@
 //border-radius
 
-.borderRadius {
-    border-radius: 16px;
-}
-
-$borderRadius: 16px;
+$border-radius: 16px;
 
 
 //shadow
 
-$box-shadow-lg: 1px 1px 16px #E0E0E0;
-
+$box-shadow: 1px 1px 16px #B7B7B7;
+$box-shadow-lg: 0px 8px 32px rgba(84, 90, 121, 0.5);
 
 
 //Spacing
@@ -32,7 +28,6 @@ $spacers: map-merge((
   ),
   $spacers
 );
-
 
 
 
