@@ -5130,6 +5130,20 @@ a.text-dark:hover, a.text-dark:focus {
   .homepage .project img {
     box-shadow: 1px 1px 16px #B7B7B7; } }
 
+.homepage .sub-project-grid {
+  max-width: 1040px; }
+  .homepage .sub-project-grid .sub-project {
+    height: 200px;
+    width: 30%;
+    display: inline-block; }
+  @media (max-width: 991.98px) {
+    .homepage .sub-project-grid {
+      overflow-x: auto;
+      overflow-y: visible;
+      white-space: nowrap; }
+      .homepage .sub-project-grid .sub-project {
+        width: 40%; } }
+
 .article h3, .article h4 {
   font-weight: 700; }
 
