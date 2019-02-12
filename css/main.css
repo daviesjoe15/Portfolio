@@ -5123,8 +5123,6 @@ a.text-dark:hover, a.text-dark:focus {
   transform: scale(1.05); }
 
 @media (max-width: 991.98px) {
-  .homepage .project h2 {
-    font-size: 2rem; }
   .homepage .project p {
     display: none; } }
 
