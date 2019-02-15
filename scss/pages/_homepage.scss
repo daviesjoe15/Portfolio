@@ -88,30 +88,4 @@
         
     }
     
-    .sub-project-grid {
-        
-        max-width: 1040px;
-       
-        .sub-project {
-          
-            height: 200px;
-            width: 30%;
-            display: inline-block;
-            //background-color: lightgrey;
-            
-            }
-        
-        @include media-breakpoint-down(md){
-            overflow-x: auto;
-            overflow-y: visible;
-            white-space: nowrap;
-            
-            .sub-project{
-                width: 40%;
-                }
-            }
-        
-    }
-    
-    
 }
