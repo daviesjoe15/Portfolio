@@ -1,0 +1,48 @@
+ .project-grid {
+     
+    width: 960px;
+    margin: auto;
+    margin-bottom: $spacer*9;
+
+    .sub-project {
+        width: 31%;
+        display: inline-block;
+        margin-right: $spacer*1;
+        margin-bottom: $spacer*1;
+        }
+     
+    @include media-breakpoint-down(md){
+        
+        width: 100%;
+        
+        .sub-project-grid{
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+
+                &::-webkit-scrollbar {
+                display: none;
+                  }
+         }
+
+        .sub-project{
+            width: $spacer*16;
+            }
+
+        .sub-project:first-child, .project-grid-title{
+            margin-left: $spacer*7;
+            }
+        
+        .sub-project:last-child{
+         margin-right: $spacer*4;
+         }
+        }
+
+    @include media-breakpoint-down(xs){
+
+        .sub-project:first-child, .project-grid-title{
+                margin-left: $spacer*1; 
+            }
+    }
+    }
