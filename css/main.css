@@ -5032,9 +5032,9 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar .link-left, .navbar .link-right {
     transition: 0.2s; }
   .navbar .link-left::before {
-    padding-right: 8px; }
+    padding-right: 6px; }
   .navbar .link-more::after {
-    padding-left: 8px; }
+    padding-left: 6px; }
   .navbar .link-left:hover {
     transform: translate(-2px);
     transition: 0.2s; }
@@ -5140,7 +5140,7 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.2s; }
 
 .homepage .link-more::after, .homepage .link-external::after {
-  padding-left: 8px; }
+  padding-left: 6px; }
 
 .homepage .project a:hover {
   text-decoration: none; }
