@@ -46,6 +46,10 @@
         transition: 0.2s;
     }
     
+    .link-more::after, .link-external::after{
+        padding-left: 8px;
+    }
+    
     .project {
         
         a:hover {

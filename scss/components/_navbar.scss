@@ -32,6 +32,14 @@
         transition: 0.2s;
     }
     
+    .link-left::before {
+        padding-right: 8px;
+    }
+    
+    .link-more::after {
+        padding-left: 8px;
+    }
+    
       .link-left:hover {
         transform: translate(-2px);
         transition: 0.2s;
