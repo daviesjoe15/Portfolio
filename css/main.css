@@ -8,7 +8,7 @@ p {
   margin-top: 128px;
   margin-bottom: 128px; }
 
-ul, ol {
+ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px; }
@@ -5166,10 +5166,10 @@ a.text-dark:hover, a.text-dark:focus {
   .homepage .project img {
     box-shadow: 1px 1px 16px #B7B7B7; } }
 
-.article h3, .article h4 {
+.article h3, .article h4, .article h5 {
   font-weight: 700; }
 
-.article h3, .article h4, .article p {
+.article h3, .article h4, .article h5, .article p, .article ol {
   max-width: 550px;
   margin: auto; }
 
