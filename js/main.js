@@ -36,17 +36,17 @@ function testDocReady() {
 // Tabbed images
 
   var slideIndex = 1;
-    showSlides(slideIndex);
+    show1Slides(slideIndex);
 
     function plusSlides(n) {
-      showSlides(slideIndex += n);
+      show1Slides(slideIndex += n);
     }
 
     function currentSlide(n) {
-      showSlides(slideIndex = n);
+      show1Slides(slideIndex = n);
     }
 
-    function showSlides(n) {
+    function show1Slides(n) {
       var i;
       var slides = document.getElementsByClassName("mySlides", "mySlides2");
       var dots = document.getElementsByClassName("image-tab");
