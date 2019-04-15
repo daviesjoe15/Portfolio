@@ -11,23 +11,6 @@ $(window).scroll(function () {
 
 
 
-
-// Template for using functions
-
-$( document ).ready(function() {
-    
-    // when dom is ready do stuff
-    
-    testDocReady();
-});
-
-function testDocReady() {
-    
-    console.log('doc ready');
-}
-
-
-
 // Tabbed images
 
   var slideIndex = 1;
