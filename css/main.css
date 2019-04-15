@@ -5008,6 +5008,31 @@ a.text-dark:hover, a.text-dark:focus {
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
 
+.carousel .carousel-caption {
+  bottom: 15px;
+  font-size: 90%;
+  color: #6c757d; }
+
+@media (min-width: 992px) {
+  .carousel .embed-responsive {
+    min-height: 696px;
+    border: 0; } }
+
+@media (min-width: 992px) {
+  .carousel .embed-responsive-item {
+    padding: 90px; } }
+
+.figure {
+  position: relative; }
+  .figure .figure-caption {
+    position: absolute;
+    bottom: 30px;
+    left: 15%;
+    right: 15%; }
+    @media (max-width: 767.98px) {
+      .figure .figure-caption {
+        display: none; } }
+
 .navbar {
   height: 48px;
   width: 100%;
