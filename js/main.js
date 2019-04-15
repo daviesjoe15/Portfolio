@@ -1,4 +1,10 @@
-// Fade in title
+// Template for using functions
+
+$( document ).ready(function() {
+    
+    // when dom is ready do stuff
+    
+    // Fade in title
 
 $(window).scroll(function () {
 // 100 = The point you would like to fade the nav in.
@@ -10,8 +16,7 @@ $(window).scroll(function () {
 });
 
 
-
-// Tabbed images
+    // Tabbed images
 
   var slideIndex = 1;
     showSlides(slideIndex);
@@ -39,3 +44,14 @@ $(window).scroll(function () {
       slides[slideIndex-1].style.display = "block";  
       dots[slideIndex-1].className += " active";
     }
+    
+    testDocReady();
+});
+
+function testDocReady() {
+    
+    console.log('doc ready');
+}
+
+
+
