@@ -1,6 +1,6 @@
 // Template for using functions
 
-$( document ).ready(function() {
+$(document).ready(function () {
     
     // when dom is ready do stuff
     
