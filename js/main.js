@@ -4,6 +4,15 @@ $(document).ready(function () {
     
     // when dom is ready do stuff
     
+    testDocReady();
+});
+
+function testDocReady() {
+    
+    console.log('doc ready');
+}
+
+    
     // Fade in title
 
 $(window).scroll(function () {
@@ -45,13 +54,5 @@ $(window).scroll(function () {
       dots[slideIndex-1].className += " active";
     }
     
-    testDocReady();
-});
-
-function testDocReady() {
-    
-    console.log('doc ready');
-}
-
 
 
