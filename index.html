@@ -7,8 +7,10 @@
   <title>Joe Davies</title>
   <meta name="description" content="Joe Davies - Product Designer - UI UX Design System">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Spectral:300,700&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
@@ -16,40 +18,78 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
+<style>
+html {scroll-behavior: smooth;
+    }</style>
+
 <body>
 
 
 <div class="homepage">
 
    <div class="container">
-
-        <div class="mb-7 intro">
-            <h1 class="mb-2">Joe Davies</h1>
-            <h5 class="mb-2 font-weight-light">Product Designer - <a href="https://whitehat.org.uk/" target="_blank" class="link-external">currently creating WhiteHat's design system</a></h5>
+        
+        <div class=" mt-4 mb-8">
+<!--
+            <a href="/" class="logo">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 51" focusable="false" role="img" class="svg-logo">
+                <path d="M26.5 2C24 28.5 9.6 53.1 3.1 47.2 -3.5 41.3 30.8 8.3 35.2 10.3 39.7 12.3 28 41.8 26.5 41.3 25.1 40.9 33 8.7 46.2 10.3 59.5 11.9 44.8 41.3 19 48.4"></path>
+                </svg>
+            </a>
+-->
+            <a href="/" class="logo">
+               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" class="j-logo"><path d="M25 7.5C25 7.1 24.8 6.7 24.4 6.6L18.4 4.1C18.1 4 17.7 4 17.5 4.2L13.5 6.7C13.2 6.9 13 7.2 13 7.6V16.1L10.4 15.1C10.1 15 9.7 15 9.5 15.2L5.5 17.7C5.2 17.9 5 18.2 5 18.6 5 19.7 5 22 5 22 5 25.6 11 28 13.4 28.9 13.6 29 13.8 29.1 14 29.1 15.6 29.8 17.2 29.7 18.3 29.4 21.9 28.3 25 24.3 25 17V7.5ZM24 7.8V17C24 31 12 31 12 24.5V21.3C12 21.1 11.9 20.9 11.7 20.9L6.9 18.9C6.5 18.7 6.5 18.2 6.8 18L9.8 16.1C9.9 16.1 10.1 16 10.2 16.1 10.9 16.4 13 17.2 15.7 18.4 15.9 18.4 16 18.6 16 18.8V22C16 25.5 20 24 20 19.5V10.3C20 10.1 19.9 9.9 19.7 9.9L14.9 7.9C14.5 7.7 14.5 7.2 14.8 7L17.8 5.1C17.9 5.1 18.1 5 18.2 5.1L23.7 7.4C23.9 7.4 24 7.6 24 7.8Z" fill="#040402"/></svg>
+            </a>
         </div>
-
-
-
-        <div class="mb-10">
-            <ul>
-                <li><h5><a href="about.html" class="link-more">About me</a></h5></li>
-                
-                <li><h5><a href="resume.html" class="link-more">Résumé</a></h5></li>
-            </ul>
+       
+        <div class="mt-8 mb-7 intro">
+            <h1 class="mb-5 fox">Digital Product Designer.</h1>
+            <div>
+                <p class="d-inline">Hello, I'm <b>Joseph Davies</b>. <br>I help people by creating great product experiences. Currently I am designing at </p>
+                <a href="https://whitehat.org.uk/" target="_blank" class="link-external d-inline">WhiteHat</a>
+            </div>
         </div>
-           
             
-        <div class="mb-8">     
+         <ul class="mb-8">
+             <li class="mb-4">
+                <a href="about.html" class="about">
+<!--
+                    <img class="d-inline snipe-png" src="img/about/gif-about.png">
+                   <img class="d-inline snipe-gif" src="img/about/gif-about.gif"> 
+-->
+                   <p class="d-inline link-more">About me</p>
+                </a>
+            </li>
            
-           <div class="project mb-8">
+           <li class="mb-4">
+               <a href="resume.html" class="about">
+<!--
+                   <img class="d-inline snipe-png" src="img/resume/resume.jpg">
+                   <img class="d-inline snipe-gif" src="img/resume/resume.gif">
+-->
+                   <p class="d-inline link-more">Résumé</p>
+               </a>
+           </li>
+           
+<!--
+           <li>
+               <a href="#1st-project" class="about">
+                   <img class="d-inline snipe-png" src="img/resume/resume.jpg">
+                   <img class="d-inline snipe-gif" src="img/resume/resume.gif">
+                   <p class="d-inline">Projects</p>
+               </a>
+           </li>
+-->
+         </ul>      
+         
+        <div class="mb-8">
+           
+           <div class="project mb-8" id="1st-project">
               <div class="row">
                    <div class="align-self-center col-md-4">
-                       <a href="a_design_system.html">
-                           <h6 class="text-uppercase">StoryStream</h6>
-                           <h3 class="mb-4">Storyboards Redesigned</h3>
-
-                            <p>Improving Storystream's core product for Porsche, Volvo and Toyota.</p>
-                        </a>
+                        <h2 class="mb-4 ferret">Storyboards Redesigned</h2>
+                        <p>Improving Storystream's core product for Porsche, Volvo and Toyota.</p>
+                        <a href="storyboards_redesigned.html" class="link-more">Learn more</a>
                     </div>
                     
                     <div class="col-sm offset-md-1">
@@ -64,12 +104,9 @@
          <div class="project mb-8">
               <div class="row">
                    <div class="align-self-center col-md-4">
-                       <a href="storystream_projects.html">
-                           <h6 class="text-uppercase">StoryStream</h6>
-                           <h3 class="mb-4">StoryStream UI</h3>
-
+                           <h2 class="mb-4 ferret">StoryStream UI</h2>
                             <p>Solving problems with new or improved screen designs and features.</p>
-                        </a>
+                        <a href="storystream_projects.html" class="link-more">Learn more</a>
                     </div>
                     
                     <div class="col-sm offset-md-1">
@@ -84,12 +121,9 @@
            <div class="project mb-8">
               <div class="row">
                    <div class="align-self-center col-md-4">
-                       <a href="a_design_system.html">
-                           <h6 class="text-uppercase">StoryStream</h6>
-                           <h3 class="mb-4">A Design System</h3>
-
-                            <p><b>Me:</b> I think we could really benefit from a design system.<br><br><b>Everyone else:</b> Whats a design system...?</p>
-                        </a>
+                           <h2 class="mb-4 ferret">A Design System</h2>
+                            <p>Building StoryStream's design system.</p>
+                        <a href="a_design_system.html" class="link-more">Learn more</a>
                     </div>
                     
                     <div class="col-sm offset-md-1">
@@ -105,12 +139,9 @@
             <div class="project mb-8">
               <div class="row">
                    <div class="align-self-center col-md-4">
-                       <a href="iOS_Golf_App.html">
-                           <h6 class="text-uppercase">ProGolfMe</h6>
-                           <h3 class="mb-4">iOS Golf App</h3>
-
-                            <p>An iOS app to shave points off your handicap. Usability testing, style guides, app architecture, MVP's and more...</p>
-                        </a>
+                           <h2 class="mb-4 ferret">iOS Golf App</h2>
+                            <p>ProGolfMe, an iOS app to shave points off your handicap.</p>
+                        <a href="iOS_Golf_App.html" class="link-more">Learn more</a>
                     </div>
                     
                     <div class="col-sm offset-md-1">
@@ -125,11 +156,9 @@
             <div class="project mb-8">
               <div class="row">
                    <div class="align-self-center col-md-4 ">
-                       <a href="ap_diving.html">
-                           <h6 class="text-uppercase">AP Diving</h6>
-                            <h3 class="mb-4">A Dive Computer</h3>
-                        <p>They said design an interface for when you are 100ft below the sea... no pressure.</p>
-                        </a>
+                        <h2 class="mb-4 ferret">A Dive Computer</h2>
+                        <p>AP Diving said design an interface for when you are 100ft below the sea... no pressure.</p>
+                        <a href="ap_diving.html" class="link-more">Learn more</a>
                        
                     </div>
                     <div class="col-sm offset-md-1">
@@ -138,61 +167,18 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            
-            
-            <div class="project mb-8">
-              <div class="row">
-                   <div class="align-self-center col-md-4">
-                      <a href="timely.html">
-                           <h6 class="text-uppercase">University</h6>
-                            <h3 class="mb-4">Timely</h3>
-                            <p>You’ve got one week to design a product to save me time cooking, oh but it can’t be an app, or have electronics and you have a £20 manufacturing budget.</p>
-                       </a>
-                    </div>
-                    <div class="col-sm offset-md-1">
-                       <a href="timely.html">
-                            <img src="img/timely/Timely%20home%20img.png" class="img-fluid rounded">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </div>      
        </div>
-    
-    </div>
-    
-     <!-- Start of less important projects 
-    
-    <div class="project-grid">
-       <div class="sub-project-grid">
-            <div class="card sub-project">
-               <a href="timely.html">
-                    <img class="card-img-top" src="img/timely/Timely%20home%20img.png">
-                    <div class="card-body">
-                        <h5 class="card-text">Timely</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="card sub-project">
-                <img class="card-img-top" src="img/timely/Timely%20home%20img.png">
-                <div class="card-body">
-                    <h5 class="card-text">Timely</h5>
-                </div>
-            </div>
-            <div class="card sub-project">
-                <img class="card-img-top" src="img/timely/Timely%20home%20img.png">
-                <div class="card-body">
-                    <h5 class="card-text">Timely</h5>
-                </div>
-            </div>
-        </div>
     </div> 
-    
-    -->
+</div>
+
+<div class="footer">
+   <div class="container">
+       <a href="mailto:sayhello@joedavies.me">sayhello@joedavies.me</a>
+   </div>
     
 </div>
     
-    <h5 class="mb-7 text-center mx-auto"><a href="mailto:sayhello@joedavies.me">sayhello@joedavies.me</a></h5>
     
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

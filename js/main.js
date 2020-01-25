@@ -13,19 +13,42 @@ function testDocReady() {
 }
 
     
-    // Fade in title
+// Fade in title
 
-$(window).scroll(function () {
-// 100 = The point you would like to fade the nav in.
-  
-	if ($(window).scrollTop() > 140) {
-    $('.scroll-fade').addClass('show');
-    } else {
-    $('.scroll-fade').removeClass('show');};  	
+$(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    
+    if (scroll > 140) {
+        $(".scroll-fade").addClass("show");
+    }
+    else {
+        $(".scroll-fade").removeClass("show");
+    }
+    
+     if (scroll > 140) {
+        $(".navbar").addClass("active");
+    }
+    else {
+        $(".navbar").removeClass("active");
+    }
+    
 });
 
 
-    // Tabbed images
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Tabbed images
 
   var slideIndex = 1;
     showSlides(slideIndex);

@@ -1,25 +1,26 @@
 // navbar.scss
 
 .navbar {
-    height: 48px;
+    height: 72px;
     width: 100%;
     background-color: white;
     opacity: 0.98;
     backdrop-filter: blur(4px);
     padding: 0px;
+    //position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1040;
+    
     
     .nav-title {
-        width: 100%;
-        left: 0;
-        color: $gray-300;
-        text-transform: uppercase;
-        letter-spacing: .1em;
-        font-size: 11px;
+        font-weight: 700;
+        margin: auto;
     }
     
+    
     .scroll-fade {
-        text-align: center;
-        margin: auto;
         opacity: 0;
         transition: 0.3s;
     }
@@ -28,25 +29,13 @@
         opacity: 1;
     }
     
-    .link-left, .link-right {
+    .link-left{
         transition: 0.2s;
     }
     
-    .link-left::before {
-        padding-right: 6px;
-    }
-    
-    .link-more::after {
-        padding-left: 6px;
-    }
-    
-      .link-left:hover {
+
+    .link-left:hover {
         transform: translate(-2px);
-        transition: 0.2s;
-    }
-    
-    .link-right:hover {
-        transform: translate(2px);
         transition: 0.2s;
     }
     
@@ -55,8 +44,10 @@
     }
     
     @include media-breakpoint-down(sm){
-        .nav-title {
-            padding-right: 0px;
-        }
+        
+            position: static;
     }
-}  
+}
+.active {
+    box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
+}

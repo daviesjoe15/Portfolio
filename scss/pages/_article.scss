@@ -3,14 +3,33 @@
 
 .article {
     
-    h3, h4, h5 {
-        font-weight: 700;
+    h1 {
+        font-size: $fox;
     }
     
-    h3, h4, h5, p, ol {
-        max-width: 550px;
-        margin: auto;
+//    h3, h4, h5, p, ol {
+//        max-width: 30em;
+//        //margin: auto;
+//    }
+    
+    .back-mob{
+            padding: 2px 16px;
+            bottom: 20px;
+            left: 20px;
+            background-color: $white;
+            box-shadow: $box-shadow;
+            border-radius: 24px;
+        }
+    
+     .scroll-fade {
+        opacity: 0;
+        transition: 0.3s;
     }
+    
+     .show {
+        opacity: 1;
+    }
+    
     
     .paragraph {    
         margin-bottom: $spacer*8;
@@ -56,6 +75,8 @@
         }
      
     @include media-breakpoint-down(sm){
+        
+        
         
         .paragraph {
             margin-bottom: $spacer*4;

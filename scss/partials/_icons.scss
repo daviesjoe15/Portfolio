@@ -4,29 +4,26 @@
 .link-more {
         
       &::after {
-        //display: inline-block;
-        content: $chevron-right;
+          content: " →";
         }
     }
+
 
 .arrow-left {
         
       &::before {
-        //display: inline-block;
-        content: $arrow-left;
+        content: "← ";
         }
     }
+
+
 
 
 .link-external {
-        
       &::after {
-        //display: inline-block;
-        content: $external-link;
+          content: "→";
+          margin-left: 4px;
+          display: inline-block;
+          transform: rotate(-45deg);
         }
     }
-
-
-.link-more:hover, .link-external:hover {
-    color: $black;
-}

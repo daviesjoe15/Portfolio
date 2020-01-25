@@ -1,84 +1,89 @@
 // homepage
 
 .homepage {
-
-
-    ul {
-        list-style-type: none;
-      }
-
-
-    li {
-        float: left;
-        padding-right: ($spacer * 2);
-        }
-
     
     .intro {
-        
-        margin-top: $spacer*10;
-        
-        h1 {
-            color: $gray-100;
-            
+        max-width: 650px;
+        //background-color: $gray-100;
+        //padding: $spacer;
+    }
+    
+    h1{
+        color: $gray-300;
+    }
+    
+    .j-logo {
+        height: 48px;
+        width: 48px;
+    }
+    
+    .j-logo:hover{
+        text-decoration: none;
+        transition: 0.1s;
+        transform: scale(.94);
+    }
+    
+    .svg-logo{
+        height: 50px;
+        width: auto;
+        fill: none;
+        stroke: $gray-300;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: 5s ease-out 0.5s 1 normal both running outline;
+        transition: 0.1s;
+    }
+    
+    @keyframes outline {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    .svg-logo:hover{
+        transition: 0.1s;
+        transform: scale(.94);
+    }
+    
+    
+    .snipe-png, .snipe-gif {
+        width: 52px;
+        margin-right: 5px;
         }
-        
-        @include media-breakpoint-down(sm){
-            
-            margin-top: $spacer*8;
-            
-            h4{ font-size: 1.3rem;}
+    
+    .snipe-png {
+       position: absolute;
+        }
+    
+  .about:hover {
+        .snipe-png {
+        opacity: 0;
         }
     }
     
-    .intro, li {
-        a {
-            font-weight: 400;
-        }
-    }
     
-    li {
-        transition: 0.2s;
-    }
-    
-    ul li:hover {
-        transform: translate(2px);
-        transition: 0.2s;
-    }
-    
-    .link-more::after, .link-external::after{
-        padding-left: 6px;
-    }
     
     .project {
         
-        a:hover {
-            text-decoration: none;
-        }
-        
-        h2:hover {
-            color: $black;
-        }
-        
-        h6 {
-            color: $gray-200;
-            padding-left: 4px;
-            }
         
         img {
-            //object-fit: cover;
-            //min-height: 360px;
             transition: 0.2s;
         }
         
         
-        img:hover { 
+        img:hover {
             transform: scale(1.05);
         }
         
+        
+
+        
         @include media-breakpoint-down(md){
             
-            p {
+            p, .link-more {
                 display: none;
             }
         }

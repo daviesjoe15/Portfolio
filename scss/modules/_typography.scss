@@ -1,32 +1,98 @@
 //Typography
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-serif: 'Spectral', serif;
+
+//-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 
-$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-base:              1.638rem; // Assumes the browser default, typically `16px`
+
+//16px base with ratio of 1.28
 
 
-$h1-font-size:                $font-size-base * 4;
-$h2-font-size:                $font-size-base * 3;
-$h3-font-size:                $font-size-base * 2;
-$h4-font-size:                $font-size-base * 1.5;
-$h5-font-size:                $font-size-base !default;
-$h6-font-size:                $font-size-base * 0.75; 
+$h1-font-size:                $font-size-base;
+$h2-font-size:                $font-size-base;
+$h3-font-size:                $font-size-base;
+$h4-font-size:                $font-size-base;
+$h5-font-size:                $font-size-base;
+$h6-font-size:                $font-size-base;
 
-$headings-color: $black;
-$headings-font-weight: 600;
+$headings-color: $gray-300;
+$headings-font-weight: 700;
+$headings-line-height: 125%;
+$headings-font-family: 'Open Sans', sans-serif;
 
-
-p {
-    font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    
-    font-size: 1rem;
+p, a {
+    font-family: 'Spectral', serif;
+    font-size: 1.638rem;
     font-weight: 300;
     color: $gray-300;
+    line-height: 170%;
+    max-width: 30em;
 }
 
+b, strong {
+    font-weight: bold !important;
+}
+
+$shrew: 1.638rem;
+$mouse: 2.097rem;
+$ferret: 2.684rem;
+$rabbit: 3.436rem;
+$fox: 4.398rem;
+
+
+.shrew {
+    font-size: $shrew;
+}
+
+.mouse {
+    font-size: $mouse;
+}
+
+.ferret {
+    font-size: $ferret;
+}
+
+.rabbit {
+    font-size: $rabbit;
+}
+
+.fox {
+    font-size: $fox;
+}
+
+
+/* @media (max-width: 540px){
+    p, .shrew {
+    font-size: 1rem;
+    }
+
+    .mouse {
+        font-size: $font-size-base;
+    }
+
+    .ferret {
+        font-size: 1.777rem;
+    }
+
+    .rabbit {
+        font-size: 2.369rem;
+    }
+
+    .fox {
+        font-size: 3.157rem;
+    }
+
+    .deer {
+        font-size: 4.209rem;
+    }
+} */
+
+
 .title {
-    margin-top: 128px;
+    margin-top: 160px;
     margin-bottom: 128px;
 }
 
@@ -34,4 +100,15 @@ ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: $black;
+}
+
+::selection {
+  color: white;
+  background: $black;
 }
