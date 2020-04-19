@@ -8,7 +8,8 @@
   <meta name="description" content="Joe Davies - Product Designer - UI UX Design System">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Lora|Nunito:400,800&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Nunito+Sans:300,700&display=swap" rel="stylesheet">
+ 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -19,22 +20,27 @@
 
 <body>
 
-<nav class="navbar fixed-top">
-           <div class="container">
+ <nav class="navbar fixed-top">
+       <div class="container">
 
-                <h5 class="scroll-fade text-center nav-title position-absolute">StoryStream UI</h5>
+            <p class="scroll-fade text-center nav-title">StoryStream UI</p>
 
-                <a href="index.html" class="above-title arrow-left  link-left">Home</a>
+            <a href="index.html" class="position-absolute above-title arrow-left left-transition">Home</a>
 
-            </div>   
-</nav>
+        </div>
+    </nav>
 
 <div class="article">
       
-         
+    <div class="back-mob position-fixed scroll-fade"><a href="index.html" class="arrow-left">Home</a></div>
+              
    <div class="container">
 
-     <h1 class="title">StoryStream UI</h1>
+      <div class="company mt-8 mb-2">
+        <img src="img/logos/storystream-logo.jpg">
+         <a href="https://storystream.ai/" target="_blank" class="link link-external">storystream.com</a>
+     </div>
+    <h1 class="fox"><b>StoryStream UI</b></h1>
 
     <div class="paragraph">
         <h4>Manage everything in one place</h4>
@@ -138,47 +144,32 @@
           
         <p>Often companies require third-party users to upload, view or download media content. Our solution to this is hosted in a lightweight content management tool called a Brandboard. It keeps content secure via authentication and an inactivity timeout period whilst making it easy to discover content through smart search and filter.</p>
     </div>
-         
-
-     
-
 
     </div>
 
 </div>
 
-<div class="project-grid"> 
 
-         <h3 class="mb-4 project-grid-title">Projects</h3>
-
-   <div class="sub-project-grid">
-        <div class="card sub-project">
+<div class="project-grid container"> 
+    <h2>Next up...</h2>
+   <div class="row">
+       <div class="col-md-6">
            <a href="a_design_system.html">
-                <img class="card-img-top" src="img/ss-design_system/thumbnail%20-%20design%20system.png">
-                <div class="card-body">
-                    <h5 class="card-text">Design System</h5>
+               <div class="project-backdrop">
+                   <img src="img/ss-design_system/Header.png" class="img-fluid">
                 </div>
-            </a>
-        </div>
-        
-        <div class="card sub-project">
-           <a href="progolfme.html">
-                <img class="card-img-top" src="img/pgm/PGM%20Home%20img.png">
-                <div class="card-body">
-                    <h5 class="card-text">Timely</h5>
-                </div>
+                <p class="link-more">Design System</p>
             </a>
         </div> 
-
-        <div class="card sub-project">
-           <a href="ap_diving.html">
-                <img class="card-img-top" src="img/ap_diving/AP%20Home%20img.png">
-                <div class="card-body">
-                    <h5 class="card-text">Dive Computer</h5>
-                </div>
-            </a>
-        </div>
         
+        <div class="col-md-6">
+           <a href="iOS_Golf_App.html">
+               <div class="project-backdrop">
+                   <img src="img/pgm//PGM%20Home%20img.png" class="img-fluid">
+                </div>
+                <p class="link-more">iOS Golf App</p>
+            </a>
+        </div> 
     </div>   
 </div>
 

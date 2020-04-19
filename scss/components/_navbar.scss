@@ -29,12 +29,12 @@
         opacity: 1;
     }
     
-    .link-left{
+    .left-transition {
         transition: 0.2s;
     }
     
 
-    .link-left:hover {
+    .left-transition:hover {
         transform: translate(-2px);
         transition: 0.2s;
     }

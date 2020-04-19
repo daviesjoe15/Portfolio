@@ -1,0 +1,16 @@
+// media queries
+
+@mixin responsive($breakpoint) {
+    
+    @if $breakpoint == phone {
+        @media only screen and (min-width: 540px) {@content};
+    }
+}
+
+//$grid-breakpoints: (
+//  xs: 0,
+//  sm: 300px,
+//  md: 768px,
+//  lg: 992px,
+//  xl: 1200px
+//) !default;

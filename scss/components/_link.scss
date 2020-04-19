@@ -1,0 +1,25 @@
+// link
+
+.link {
+//    transition: all .3s ease-out;
+    
+   color: $black;
+    border-radius: 8px;
+     border: 1px solid rgba(255,0,200,0);
+}
+
+.link:hover {
+//    border-bottom: 2px solid $pink;
+    color: $pink;
+//font-weight: bold;
+//    text-decoration: none;
+//    background-color: $white;
+//    border: 1px solid $gray-200;
+//    
+}
+
+.link:active {
+//    box-shadow: none;
+    box-shadow: #f7bbdc 0px 0px 0px 2px;
+//    background-color: #EDF2F5;
+}

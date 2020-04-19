@@ -3,24 +3,35 @@
 
 .article {
     
-    h1 {
-        font-size: $fox;
+    .company img{
+        height: 20px;
+        border-radius: 4px;
+        margin-bottom: 4px;
     }
     
-//    h3, h4, h5, p, ol {
-//        max-width: 30em;
-//        //margin: auto;
-//    }
+    h1 {
+            margin-bottom: 128px;
+        }
+
     
     .back-mob{
-            padding: 2px 16px;
+            padding: 4px 16px;
             bottom: 20px;
             left: 20px;
-            background-color: $white;
+            background-color: $black;
             box-shadow: $box-shadow;
             border-radius: 24px;
             display: none;
-        }
+                a {
+                    color: white;
+                }
+            }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
     
      .scroll-fade {
         opacity: 0;
@@ -35,9 +46,24 @@
     .paragraph {    
         margin-bottom: $spacer*8;
         
-            h3, h4, p {
+            h2, h3, h4, h5, h6 {
                 padding-bottom: $spacer*2;
                 }
+
+            h2 {
+                font-size: $fox;
+            }
+        
+            h3 {
+                font-size: $rabbit;
+            }
+        
+             h4 {
+                font-size: $ferret;
+            }
+            h5 {
+                font-size: $mouse;
+            }
         }
     
     .image {
@@ -68,38 +94,20 @@
         bottom: -$spacer*3;
     }
     
-    .next-project h3{
-        margin-left: 0px;
-    }
-    .project-card img:hover {
-            box-shadow: $box-shadow-lg !important;
-        }
      
     @include media-breakpoint-down(sm){
         
         .back-mob {
             display: block;
+            z-index: 2;
         }
         
         .paragraph {
             margin-bottom: $spacer*4;
-            max-width: 400px;
         }
         
         .image {
             margin-bottom: $spacer*4;
-        }
-        
-        h1 {
-            font-size: 3rem;
-        }
-        
-        .project-card:last-child{
-            display: none;
-        }
-        
-        .lastLetter {
-            display: none;
         }
     }
 }

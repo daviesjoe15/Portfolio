@@ -2,9 +2,14 @@
 
 .about {
     
+        h1 {
+            margin-top: 60px;
+            //margin-bottom: 128px;
+        }
+    
     img {
-        object-fit: cover;
-        max-height: 512px;
-        
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
     }
 }

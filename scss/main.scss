@@ -1,20 +1,29 @@
+// Media queries
+
+
 @import 'modules/colours';
+@import 'modules/media-queries';
 @import 'modules/typography';
 @import 'modules/variables';
+@import 'vendor/bootstrap';
+
+
 
 // Icons
 
 @import 'partials/icons';
 
 
+
 // Bootstrap 
 
-@import 'vendor/bootstrap';
+
 
 
 
 // Components
 
+@import 'components/link';
 @import 'components/navbar';
 @import 'components/imageTab';
 @import 'components/carousel';
