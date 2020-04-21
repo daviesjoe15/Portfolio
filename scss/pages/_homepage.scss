@@ -2,6 +2,13 @@
 
 .homepage {
     
+    .dingo {
+        transform: rotate(-4deg);
+        border-radius: 16px;
+        height: 23rem;
+        margin-top: $spacer*6;
+    }
+    
     .intro {
         max-width: 700px;
     }
@@ -50,20 +57,49 @@
         
 
         
-        @include media-breakpoint-down(md){
+//        @include media-breakpoint-down(md){
+//            
+//            p, .link-more {
+//                display: none;
+//            }
+//        }
+//        
+//        @include media-breakpoint-down(xs){
+//            
+//            .dingo {
+//                height: 10rem;
+//            }
+//            
+//            img{
+//                box-shadow: $box-shadow;
+//            }
+//        } 
+        
+    }
+    
+    @include media-breakpoint-down(md){
+        
+            .dingo {
+                border-radius: 100%;
+                margin-top: $spacer*3;
+                height: 12rem;
+            }
             
-            p, .link-more {
+            .project p, .project .link-more {
                 display: none;
             }
         }
         
         @include media-breakpoint-down(xs){
             
-            img{
+            .dingo {
+                margin-top: $spacer*1;
+                height: 7rem;
+            }
+            
+            .project img{
                 box-shadow: $box-shadow;
             }
         } 
-        
-    }
     
 }

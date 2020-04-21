@@ -5192,6 +5192,12 @@ a.text-dark:hover, a.text-dark:focus {
   .project-grid a:hover p {
     color: #dd1b87; }
 
+.homepage .dingo {
+  transform: rotate(-4deg);
+  border-radius: 16px;
+  height: 23rem;
+  margin-top: 6rem; }
+
 .homepage .intro {
   max-width: 700px; }
 
@@ -5223,10 +5229,17 @@ a.text-dark:hover, a.text-dark:focus {
   transform: scale(1.05); }
 
 @media (max-width: 991.98px) {
+  .homepage .dingo {
+    border-radius: 100%;
+    margin-top: 3rem;
+    height: 12rem; }
   .homepage .project p, .homepage .project .link-more {
     display: none; } }
 
 @media (max-width: 575.98px) {
+  .homepage .dingo {
+    margin-top: 1rem;
+    height: 7rem; }
   .homepage .project img {
     box-shadow: 1px 1px 16px #B7B7B7; } }
 
