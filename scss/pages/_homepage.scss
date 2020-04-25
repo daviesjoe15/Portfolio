@@ -44,7 +44,6 @@
         }
         
         img {
-            //border: 2px solid $black;
             transition: 0.2s;
             width: 100%;
         }
@@ -53,27 +52,6 @@
         img:hover {
             transform: scale(1.05);
         }
-        
-        
-
-        
-//        @include media-breakpoint-down(md){
-//            
-//            p, .link-more {
-//                display: none;
-//            }
-//        }
-//        
-//        @include media-breakpoint-down(xs){
-//            
-//            .dingo {
-//                height: 10rem;
-//            }
-//            
-//            img{
-//                box-shadow: $box-shadow;
-//            }
-//        } 
         
     }
     
@@ -97,8 +75,10 @@
                 height: 7rem;
             }
             
-            .project img{
-                box-shadow: $box-shadow;
+            .project img {
+                border-radius: 8px;
+                padding: $spacer*1;
+                 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
             }
         } 
     

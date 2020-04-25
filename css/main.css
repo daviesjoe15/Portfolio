@@ -5179,7 +5179,6 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 3rem; }
   .project-grid .project-backdrop {
     border-radius: 8px;
-    background-color: #F2F7F9;
     margin-bottom: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
     .project-grid .project-backdrop img {
@@ -5188,7 +5187,7 @@ a.text-dark:hover, a.text-dark:focus {
       width: 100%;
       object-fit: cover; }
   .project-grid a:hover .project-backdrop {
-    background-color: #ffffff; }
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
   .project-grid a:hover p {
     color: #dd1b87; }
 
@@ -5241,7 +5240,9 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 1rem;
     height: 7rem; }
   .homepage .project img {
-    box-shadow: 1px 1px 16px #B7B7B7; } }
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); } }
 
 .article .company img {
   height: 20px;
