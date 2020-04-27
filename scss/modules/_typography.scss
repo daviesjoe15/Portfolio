@@ -57,7 +57,7 @@ $headings-font-weight: 300;
 $headings-line-height: 125%;
 $headings-font-family: 'Open Sans', sans-serif;
 
-p, a {
+p, a, li {
     font-family: 'Nunito Sans', serif;
     font-size: $font-size-base;
     font-weight: 300;
@@ -105,7 +105,7 @@ $stag: $deer*1.28;
 
  @media (min-width: 540px){
      
-    p, a, .shrew {
+    p, a, li, .shrew {
     font-size: $mouse;
     }
 
@@ -128,7 +128,7 @@ $stag: $deer*1.28;
 
  @media (min-width: 1695px){
      
-    p, a, .shrew {
+    p, a, li, .shrew {
     font-size: $ferret;
     }
 
@@ -150,11 +150,11 @@ $stag: $deer*1.28;
 } 
 
 
-ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
+//ul {
+//    list-style-type: none;
+//    padding: 0px;
+//    margin: 0px;
+//}
 
 
 ::-moz-selection { /* Code for Firefox */

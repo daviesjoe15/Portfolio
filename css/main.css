@@ -1,5 +1,5 @@
 @charset "UTF-8";
-p, a {
+p, a, li {
   font-family: 'Nunito Sans', serif;
   font-size: 1.28rem;
   font-weight: 300;
@@ -26,7 +26,7 @@ b, strong {
   font-size: 3.43597rem; }
 
 @media (min-width: 540px) {
-  p, a, .shrew {
+  p, a, li, .shrew {
     font-size: 1.6384rem; }
   .mouse {
     font-size: 2.09715rem; }
@@ -38,7 +38,7 @@ b, strong {
     font-size: 4.39805rem; } }
 
 @media (min-width: 1695px) {
-  p, a, .shrew {
+  p, a, li, .shrew {
     font-size: 2.09715rem; }
   .mouse {
     font-size: 2.68435rem; }
@@ -48,11 +48,6 @@ b, strong {
     font-size: 4.39805rem; }
   .fox {
     font-size: 5.6295rem; } }
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px; }
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -5266,7 +5261,8 @@ a.text-dark:hover, a.text-dark:focus {
 .article img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; }
+  border-radius: 8px;
+  margin-bottom: 2rem; }
 
 .article .scroll-fade {
   opacity: 0;
