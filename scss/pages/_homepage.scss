@@ -13,30 +13,11 @@
         max-width: 700px;
     }
     
-  
-    .j-logo {
-        height: 48px;
-        width: 48px;
-    }
-    
-    .j-logo:hover{
-        text-decoration: none;
-        transition: 0.1s;
-        transform: scale(.94);
-    }
-    
-    
-    @keyframes outline {
-      to {
-        stroke-dashoffset: 0;
-      }
-    }
-    
-    .svg-logo:hover{
-        transition: 0.1s;
-        transform: scale(.94);
-    }
-    
+    ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
     
     .project {
         h2 {

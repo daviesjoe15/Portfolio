@@ -37,10 +37,37 @@ $(window).scroll(function() {
 
 
 
+//$('.collapse').collapse()
 
 
+//function initReadMoreLinks() {
+//
+//  $('.read-more').click(function(){
+//      var $this = $(this);
+//      $this.toggleClass('read-more');
+//      if($this.hasClass('read-more')){
+//          $this.text('Read more');         
+//      } else {
+//          $this.text('Read less');
+//      }
+//  });
+//}
+//
 
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 
 
 

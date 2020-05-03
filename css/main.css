@@ -1,5 +1,5 @@
 @charset "UTF-8";
-p, a, li {
+p, a, li, summary {
   font-family: 'Nunito Sans', serif;
   font-size: 1.28rem;
   font-weight: 300;
@@ -5195,22 +5195,10 @@ a.text-dark:hover, a.text-dark:focus {
 .homepage .intro {
   max-width: 700px; }
 
-.homepage .j-logo {
-  height: 48px;
-  width: 48px; }
-
-.homepage .j-logo:hover {
-  text-decoration: none;
-  transition: 0.1s;
-  transform: scale(0.94); }
-
-@keyframes outline {
-  to {
-    stroke-dashoffset: 0; } }
-
-.homepage .svg-logo:hover {
-  transition: 0.1s;
-  transform: scale(0.94); }
+.homepage ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 
 .homepage .project h2 {
   font-weight: bold; }
