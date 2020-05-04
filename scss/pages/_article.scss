@@ -19,7 +19,6 @@
             bottom: 20px;
             left: 20px;
             background-color: $black;
-            box-shadow: $box-shadow;
             border-radius: 24px;
             display: none;
                 a {
@@ -45,18 +44,16 @@
     
     
     .paragraph {    
-        margin-bottom: $spacer*8;
-        
-            h2, h3, h4, h5, h6 {
-                padding-bottom: $spacer*2;
-                }
+        margin-bottom: $spacer*4;
 
             h2 {
                 font-size: $fox;
+                margin-bottom: $spacer*2;
             }
         
             h3 {
                 font-size: $rabbit;
+                margin-bottom: $spacer*1;
             }
         
              h4 {
@@ -66,6 +63,13 @@
                 font-size: $mouse;
             }
         }
+    
+    .problem {
+        margin-bottom: $spacer*8;
+//        border-left: 8px solid $gray-200;
+//        padding: 24px;
+//        border-radius: 8px;
+    }
     
     .image {
         margin-bottom: $spacer*8;

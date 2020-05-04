@@ -1,0 +1,26 @@
+// Collapse transition as component class .details
+
+.detail {
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid $gray-200;
+    max-width: 40em;
+    padding: 16px 16px 0px 16px;
+
+    
+    
+    a {
+        display: block;
+        
+         
+            &::before {
+            content: "+ ";
+        }
+    }
+    
+    .collapse {
+        padding-bottom: 16px;
+    }
+
+
+}

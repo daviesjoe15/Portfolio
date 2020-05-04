@@ -1,12 +1,12 @@
 .imageTab{
     
+    
     .mySlides{
     display: none;
     }
 
     .image-tab {
       cursor: pointer;
-      color: $gray-300;
       padding: 4px 16px;
     border-radius: 24px;
     }
@@ -17,6 +17,7 @@
     }
 
     .image-tab-scroll {
+        padding: 8px;
       overflow-x: auto;
       overflow-y: hidden;
       white-space: nowrap;
@@ -27,7 +28,7 @@
         }
     }
     
-    .fade {
+    .fade-tab {
       -webkit-animation-name: fade;
       -webkit-animation-duration: 1s;
       animation-name: fade;

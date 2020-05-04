@@ -57,7 +57,7 @@ $headings-font-weight: 300;
 $headings-line-height: 125%;
 $headings-font-family: 'Open Sans', sans-serif;
 
-p, a, li, summary {
+p, a, li, q {
     font-family: 'Nunito Sans', serif;
     font-size: $font-size-base;
     font-weight: 300;
@@ -105,7 +105,7 @@ $stag: $deer*1.28;
 
  @media (min-width: 540px){
      
-    p, a, li, .shrew {
+    p, a, li, q, .shrew {
     font-size: $mouse;
     }
 

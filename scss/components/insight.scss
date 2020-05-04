@@ -1,0 +1,31 @@
+// Insight
+
+.insight {
+    background-color: white;
+    width: 40em;
+    padding: 24px;
+    border: 1px solid $gray-200;
+    border-left: 8px solid $purple;
+    border-radius: 8px;
+    margin-bottom: $spacer*2;
+    
+    .insight-title {
+        font-weight: bold;
+        color: $purple;
+        &::after {
+          content: "Insight";
+        }
+    }
+    
+
+      
+    .insight-type {
+        color: $gray-300;
+        margin-bottom: 0px;
+        font-style: italic;
+    }
+    
+    @include media-breakpoint-down(sm){
+        width: 100%;
+    }
+}
