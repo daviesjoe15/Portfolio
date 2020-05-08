@@ -7,6 +7,11 @@
     font-size: $mouse;
     margin: 12px;
     border-radius: 12px;
-    border: 1px solid $gray-100;
+    border: 1px solid $gray-200;
+    
+    ul{
+        list-style: none;
+        padding: 0px;
+    }
     
 }

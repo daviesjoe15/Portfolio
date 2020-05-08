@@ -1,26 +1,29 @@
 // Insight
 
 .insight {
-    background-color: white;
+    background-color: $purple;
     width: 40em;
     padding: 24px;
-    border: 1px solid $gray-200;
-    border-left: 8px solid $purple;
+//    border: 1px solid $gray-200;
+//    border-left: 8px solid $purple;
     border-radius: 8px;
     margin-bottom: $spacer*2;
     
     .insight-title {
         font-weight: bold;
-        color: $purple;
+        color: $gray-100;
         &::after {
           content: "Insight";
         }
     }
     
+    p{
+        color: white;
+    }
 
       
     .insight-type {
-        color: $gray-300;
+        color: $white;
         margin-bottom: 0px;
         font-style: italic;
     }

@@ -20,6 +20,7 @@
         }
     
     .project {
+        
         h2 {
             font-weight: bold;
         }
@@ -27,6 +28,7 @@
         img {
             transition: 0.2s;
             width: 100%;
+            border-radius: 16px;
         }
         
         
@@ -53,7 +55,7 @@
             
             .dingo {
                 margin-top: $spacer*1;
-                height: 7rem;
+                height: 4rem;
             }
             
             .project img {

@@ -31,6 +31,7 @@
         height: auto;
         border-radius: 8px;
         margin-bottom: $spacer*2;
+        border: 1px solid $gray-100;
     }
     
      .scroll-fade {
@@ -83,6 +84,7 @@
             max-height: 60vh;
             display: block;
             margin: 0 auto;
+            
         }
     }
     
