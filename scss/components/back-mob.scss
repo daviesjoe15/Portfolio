@@ -1,0 +1,22 @@
+// mobile back button
+
+
+.back-mob {
+    position: fixed;
+    padding: 4px 16px;
+    bottom: 20px;
+    left: 20px;
+    background-color: $black;
+    border-radius: 24px;
+    display: none;
+            
+        a {
+            color: $white;
+        }
+    
+     @include media-breakpoint-down(sm){
+        display: block;
+        z-index: 2;
+    }
+
+}

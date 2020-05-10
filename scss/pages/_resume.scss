@@ -1,6 +1,17 @@
 // Resume
 
 .resume {
+    
+     .scroll-fade {
+        opacity: 0;
+        transition: 0.3s;
+    }
+    
+     .show {
+        opacity: 1;
+    }
+    
+    
      
     .skills {
         
