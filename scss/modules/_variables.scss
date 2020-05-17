@@ -32,9 +32,13 @@ $spacers: map-merge((
 
  //Links
 $link-decoration: none;
-$link-color: $black;
-$link-hover-color: $pink;
+$link-color: $gray-300;
+$link-hover-color: $black;
 $link-hover-decoration: none;
+
+//States
+$active: 0px 0px 0px 3px $black;
+$hover-bg: background-color: rgba(0, 26, 77, .05);
 
 // Grid
 
@@ -58,11 +62,5 @@ $carousel-indicator-active-bg: $gray-200;
 
 // Animation
 $transition-timing-function: cubic-bezier(.68,-.55,.265,1.55);
-
-//show
-
- .show {
-    opacity: 1;
-}
 
     

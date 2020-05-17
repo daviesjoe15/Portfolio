@@ -24,3 +24,11 @@
 
 
 }
+
+.detail:hover {
+    background-color: $gray-100;
+}
+
+.detail:active{
+    box-shadow: $active;
+}

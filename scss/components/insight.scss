@@ -1,34 +1,28 @@
 // Insight
 
 .insight {
-    background-color: $purple;
-    width: 40em;
-    padding: 24px;
-//    border: 1px solid $gray-200;
-//    border-left: 8px solid $purple;
-    border-radius: 8px;
-    margin-bottom: $spacer*2;
+    border-left: 12px solid $gray-100;
+    padding: 0px 32px;
+    margin: 124px 0px;
     
-    .insight-title {
-        font-weight: bold;
-        color: $gray-100;
-        &::after {
-          content: "Insight";
-        }
-    }
+//    .insight-title {
+//        color: $gray-300;
+//        font-weight: bold;
+//        &::after {
+//          content: open-quote open-quote;
+//        }
+//    }
     
-    p{
-        color: white;
+    p {
+        line-height: 130%;
     }
 
       
     .insight-type {
-        color: $white;
-        margin-bottom: 0px;
         font-style: italic;
     }
-    
-    @include media-breakpoint-down(sm){
-        width: 100%;
-    }
+}
+
+.insight:hover{
+    border-left: 12px solid $gray-200;
 }

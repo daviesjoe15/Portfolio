@@ -58,9 +58,6 @@ b, strong {
   color: white;
   background: #001A4D; }
 
-.show {
-  opacity: 1; }
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -187,11 +184,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #001A4D;
+  color: #003366;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #CF375C;
+    color: #001A4D;
     text-decoration: none; }
 
 a:not([href]) {
@@ -1576,10 +1573,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #001A4D;
+  color: #003366;
   text-decoration: none; }
   .btn-link:hover {
-    color: #CF375C;
+    color: #001A4D;
     text-decoration: none; }
   .btn-link:focus, .btn-link.focus {
     text-decoration: none;
@@ -2010,12 +2007,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #001A4D;
+  color: #003366;
   background-color: #ffffff;
   border: 1px solid #003366; }
   .page-link:hover {
     z-index: 2;
-    color: #CF375C;
+    color: #001A4D;
     text-decoration: none;
     background-color: #CED6DC;
     border-color: #003366; }
@@ -5980,15 +5977,15 @@ a.text-dark:hover, a.text-dark:focus {
   transform: rotate(-45deg); }
 
 .link {
-  color: #001A4D;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 0, 200, 0); }
+  padding: 4px 6px;
+  border-radius: 6px; }
 
 .link:hover {
-  color: #CF375C; }
+  color: #001A4D;
+  background-color: rgba(0, 26, 77, 0.05); }
 
 .link:active {
-  box-shadow: #f7bbdc 0px 0px 0px 2px; }
+  box-shadow: 0px 0px 0px 3px #001A4D; }
 
 .navbar {
   height: 72px;
@@ -6104,7 +6101,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 9rem; }
   .project-grid h2 {
     font-weight: bold;
-    font-size: 2.09715rem;
+    font-size: 3.43597rem;
     margin-bottom: 3rem; }
   .project-grid .sub-project {
     margin-bottom: 3rem; }
@@ -6135,26 +6132,23 @@ a.text-dark:hover, a.text-dark:focus {
   .detail .collapse {
     padding-bottom: 16px; }
 
+.detail:hover {
+  background-color: #F2F7F9; }
+
+.detail:active {
+  box-shadow: 0px 0px 0px 3px #001A4D; }
+
 .insight {
-  background-color: #193A59;
-  width: 40em;
-  padding: 24px;
-  border-radius: 8px;
-  margin-bottom: 2rem; }
-  .insight .insight-title {
-    font-weight: bold;
-    color: #F2F7F9; }
-    .insight .insight-title::after {
-      content: "Insight"; }
+  border-left: 12px solid #F2F7F9;
+  padding: 0px 32px;
+  margin: 124px 0px; }
   .insight p {
-    color: white; }
+    line-height: 130%; }
   .insight .insight-type {
-    color: #ffffff;
-    margin-bottom: 0px;
     font-style: italic; }
-  @media (max-width: 767.98px) {
-    .insight {
-      width: 100%; } }
+
+.insight:hover {
+  border-left: 12px solid #CED6DC; }
 
 .back-mob {
   position: fixed;
