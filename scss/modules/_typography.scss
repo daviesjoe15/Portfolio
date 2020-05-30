@@ -1,13 +1,8 @@
 //Typography
 
 
-$font-family-sans-serif: 'Open Sans', sans-serif;
+//$font-family-sans-serif: 'Open Sans', sans-serif;
 $font-family-serif: 'Nunito Sans', serif;
-
-//-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-
-
 
 $type-ratio: 1.28;
 
@@ -27,8 +22,8 @@ $h6-font-size:                $font-size-base;
 
 $headings-color: $black;
 $headings-font-weight: 300;
-$headings-line-height: 125%;
-$headings-font-family: 'Open Sans', sans-serif;
+$headings-line-height: 100%;
+$headings-font-family: 'Times', serif;
 
 p, a, li, q {
     font-family: 'Nunito Sans', serif;
@@ -74,6 +69,10 @@ $stag: $deer*1.28;
     font-size: $fox;
 }
 
+.deer {
+    font-size: $stag;
+}
+
 
 
  @media (min-width: 540px){
@@ -97,6 +96,10 @@ $stag: $deer*1.28;
     .fox {
         font-size: $deer;
     }
+     
+     .deer {
+         font-size: stag;
+     }
 } 
 
  @media (min-width: 1695px){
