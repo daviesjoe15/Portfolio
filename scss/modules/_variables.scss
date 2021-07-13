@@ -1,13 +1,24 @@
 //border-radius
 
 $border-radius: 16px;
+//$br-shrew: 4px;
+//$br-mouse: 8px;
+//$br-ferret: 16px;
+//$br-rabbit: 24px;
+//$br-fox: 32px;
+
 
 
 //shadow
 
 $box-shadow: 1px 1px 16px #B7B7B7;
 $box-shadow-lg: 0px 8px 32px rgba(84, 90, 121, 0.5);
-
+$box-shadow-soft: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
 
 //Spacing
 

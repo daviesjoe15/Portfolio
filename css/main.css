@@ -6224,6 +6224,10 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 2rem;
   border: 1px solid #F2F7F9; }
 
+.article .wh-img {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  border: none; }
+
 .article .scroll-fade {
   opacity: 0;
   transition: 0.3s; }

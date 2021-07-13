@@ -22,6 +22,12 @@
         border: 1px solid $gray-100;
     }
     
+    .wh-img {
+        box-shadow: $box-shadow-soft;
+        border: none;
+        
+    }
+    
      .scroll-fade {
         opacity: 0;
         transition: 0.3s;
