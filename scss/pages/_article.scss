@@ -19,7 +19,7 @@
         height: auto;
         border-radius: 8px;
         margin-bottom: $spacer*2;
-        border: 1px solid $gray-100;
+        border: 1px solid $gray-200;
     }
     
     .wh-img {
@@ -39,7 +39,7 @@
     
     
     .paragraph {    
-        margin-bottom: $spacer*4;
+        margin-bottom: $spacer*6;
 
             h2 {
                 font-size: $fox;
@@ -81,7 +81,10 @@
     
     figcaption {
         text-align: center;
-        color: $gray-200;
+        color: $gray-300;
+        margin-bottom: $spacer*5;
+        font-weight: 200;
+        font-size: 18px;
     }
     
     .embed-responsive {
@@ -89,7 +92,7 @@
     }
     
     .carousel-indicators li {
-        bottom: -$spacer*3;
+        bottom: $spacer*3;
     }
     
      

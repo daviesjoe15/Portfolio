@@ -1,7 +1,7 @@
 @charset "UTF-8";
 p, a, li, q {
   font-family: 'Nunito Sans', serif;
-  font-size: 1.28rem;
+  font-size: 1.2rem;
   font-weight: 300;
   color: #001A4D;
   line-height: 170%;
@@ -11,48 +11,48 @@ b, strong {
   font-weight: bold !important; }
 
 .shrew {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 .mouse {
-  font-size: 1.6384rem; }
+  font-size: 1.536rem; }
 
 .ferret {
-  font-size: 2.09715rem; }
+  font-size: 1.96608rem; }
 
 .rabbit {
-  font-size: 2.68435rem; }
+  font-size: 2.51658rem; }
 
 .fox {
-  font-size: 3.43597rem; }
+  font-size: 3.22123rem; }
 
 .deer {
-  font-size: 5.6295rem; }
+  font-size: 5.27766rem; }
 
 @media (min-width: 540px) {
   p, a, li, q, .shrew {
-    font-size: 1.6384rem; }
+    font-size: 1.536rem; }
   .mouse {
-    font-size: 2.09715rem; }
+    font-size: 1.96608rem; }
   .ferret {
-    font-size: 2.68435rem; }
+    font-size: 2.51658rem; }
   .rabbit {
-    font-size: 3.43597rem; }
+    font-size: 3.22123rem; }
   .fox {
-    font-size: 4.39805rem; }
+    font-size: 4.12317rem; }
   .deer {
     font-size: stag; } }
 
 @media (min-width: 1695px) {
   p, a, li, .shrew {
-    font-size: 2.09715rem; }
+    font-size: 1.96608rem; }
   .mouse {
-    font-size: 2.68435rem; }
+    font-size: 2.51658rem; }
   .ferret {
-    font-size: 3.43597rem; }
+    font-size: 3.22123rem; }
   .rabbit {
-    font-size: 4.39805rem; }
+    font-size: 4.12317rem; }
   .fox {
-    font-size: 5.6295rem; } }
+    font-size: 5.27766rem; } }
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -110,7 +110,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.28rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -362,25 +362,25 @@ h1, h2, h3, h4, h5, h6,
   color: #001A4D; }
 
 h1, .h1 {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 h2, .h2 {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 h3, .h3 {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 h4, .h4 {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 h5, .h5 {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 h6, .h6 {
-  font-size: 1.28rem; }
+  font-size: 1.2rem; }
 
 .lead {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 300; }
 
 .display-1 {
@@ -438,7 +438,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.6rem; }
+  font-size: 1.5rem; }
 
 .blockquote-footer {
   display: block;
@@ -1180,7 +1180,7 @@ mark,
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1.28rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   border-radius: 16px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
@@ -1592,13 +1592,13 @@ fieldset:disabled a.btn {
 
 .btn-lg {
   padding: 0.5rem 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
 .btn-sm {
   padding: 0.25rem 0.5rem;
-  font-size: 1.12rem;
+  font-size: 1.05rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -1692,10 +1692,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.26rem;
-  padding-bottom: 0.26rem;
+  padding-top: 0.275rem;
+  padding-bottom: 0.275rem;
   margin-right: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
@@ -1726,7 +1726,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -2050,7 +2050,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1.5; }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -2063,7 +2063,7 @@ input[type="button"].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 1.12rem;
+  font-size: 1.05rem;
   line-height: 1.5; }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -6093,7 +6093,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #FDFCFA;
-  font-size: 1.6384rem;
+  font-size: 1.536rem;
   margin: 12px;
   border-radius: 12px; }
   .footer ul {
@@ -6105,7 +6105,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 9rem; }
   .project-grid h2 {
     font-weight: bold;
-    font-size: 3.43597rem;
+    font-size: 3.22123rem;
     margin-bottom: 3rem; }
   .project-grid .sub-project {
     margin-bottom: 3rem; }
@@ -6180,9 +6180,6 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   padding: 0; }
 
-.homepage .project h2 {
-  font-weight: bold; }
-
 .homepage .project img {
   transition: 0.2s;
   width: 100%;
@@ -6222,7 +6219,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: auto;
   border-radius: 8px;
   margin-bottom: 2rem;
-  border: 1px solid #F2F7F9; }
+  border: 1px solid #CED6DC; }
 
 .article .wh-img {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
@@ -6236,17 +6233,17 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1; }
 
 .article .paragraph {
-  margin-bottom: 4rem; }
+  margin-bottom: 6rem; }
   .article .paragraph h2 {
-    font-size: 3.43597rem;
+    font-size: 3.22123rem;
     margin-bottom: 2rem; }
   .article .paragraph h3 {
-    font-size: 2.68435rem;
+    font-size: 2.51658rem;
     margin-bottom: 1rem; }
   .article .paragraph h4 {
-    font-size: 2.09715rem; }
+    font-size: 1.96608rem; }
   .article .paragraph h5 {
-    font-size: 1.6384rem; }
+    font-size: 1.536rem; }
 
 .article .problem {
   margin-bottom: 8rem; }
@@ -6263,13 +6260,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .article figcaption {
   text-align: center;
-  color: #CED6DC; }
+  color: #003366;
+  margin-bottom: 5rem;
+  font-weight: 200;
+  font-size: 18px; }
 
 .article .embed-responsive {
   margin-bottom: 8rem; }
 
 .article .carousel-indicators li {
-  bottom: -3rem; }
+  bottom: 3rem; }
 
 @media (max-width: 767.98px) {
   .article .paragraph {
