@@ -38,6 +38,11 @@
         
     }
     
+    .more-projects{
+        border-radius: $spacer*4;
+        background-color: $gray-100;
+    }
+    
     @include media-breakpoint-down(md){
         
             .dingo {
