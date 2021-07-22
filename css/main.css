@@ -6209,10 +6209,6 @@ a.text-dark:hover, a.text-dark:focus {
 .homepage .project img:hover {
   transform: scale(1.05); }
 
-.homepage .more-projects {
-  border-radius: 4rem;
-  background-color: #F2F7F9; }
-
 @media (max-width: 991.98px) {
   .homepage .dingo {
     border-radius: 100%;
