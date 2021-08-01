@@ -6183,7 +6183,9 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 1rem; }
       .project-sm img {
         width: 130px;
-        padding-right: 20px; } }
+        padding-right: 20px; }
+      .project-sm p {
+        display: none; } }
 
 .badge {
   margin-bottom: 0px !important;
