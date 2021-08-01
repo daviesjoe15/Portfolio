@@ -13,6 +13,11 @@
         padding-right: 40px;
     }
     
+//    p{
+//        color: $neutral;
+//    }
+    
+    
     @include media-breakpoint-down(sm){
         
         padding: $spacer*1;

@@ -19,8 +19,6 @@
         }
     
     .project {
-        
-        
         img {
             transition: 0.2s;
             width: 100%;
@@ -36,6 +34,10 @@
             transform: scale(1.05);
         }
         
+    }
+    
+    .badge{
+        margin-right: 8px;
     }
     
     @include media-breakpoint-down(md){

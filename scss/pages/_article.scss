@@ -3,16 +3,16 @@
 
 .article {
     
-    .company img{
-        height: 20px;
-        border-radius: 4px;
+    .logo{
+        height: 30px;
+        border: 1px solid $gray-200;
         margin-bottom: 4px;
+        padding: 4px;
+        
+        img{
+            border-radius: 0px;
+        }
     }
-    
-//    h1 {
-//            margin-bottom: 128px;
-//        }
-
 
     img {
         max-width: 100%;
