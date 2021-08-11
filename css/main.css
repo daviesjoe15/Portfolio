@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Recoleta";
-  src: url("../../Recoleta-Medium.ttf") format("truetype"); }
+  src: url("../../Portfolio/Recoleta-Medium.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Recoleta";
-  src: url("../../Recoleta-Bold.ttf") format("truetype"); }
+  src: url("../../Portfolio/Recoleta-Bold.ttf") format("truetype"); }
 
 p, a, li, q {
   font-family: 'Nunito Sans', serif;
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Recoleta", "Times", serif;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 100%;
   color: #001A4D; }
 
