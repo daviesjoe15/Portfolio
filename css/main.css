@@ -1,15 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Recoleta";
-  src: url("../../Portfolio/Recoleta-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  src: url("../../Portfolio/Recoleta-Medium.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Recoleta";
-  src: url("../../Portfolio/Recoleta-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
+  src: url("../../Portfolio/Recoleta-Bold.ttf") format("truetype"); }
 
 p, a, li, q {
   font-family: 'Nunito Sans', serif;
