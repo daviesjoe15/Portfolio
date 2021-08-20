@@ -6223,7 +6223,8 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.1rem;
   background-color: #F9F9F9;
   padding: 0 0.75rem;
-  border-radius: 8px; }
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05); }
 
 .homepage .dingo {
   transform: rotate(-4deg);
@@ -6231,7 +6232,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 6rem; }
 
 .homepage .intro {
-  max-width: 760px; }
+  max-width: 700px; }
 
 .homepage ul {
   list-style-type: none;
